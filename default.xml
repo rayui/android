@@ -458,8 +458,8 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"  />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8"  />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8"  />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8"  />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master"  />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="l-amlogic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="l-amlogic/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8"  />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="l-amlogic/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"  />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="l-amlogic/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"  />
