@@ -110,7 +110,7 @@
   <project path="external/chromium_org/tools/grit" name="l-amlogic/platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="l-amlogic/platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="l-amlogic/platform/external/chromium_org/v8" />
-  <project path="external/clang" name="l-amlogic/platform/external/clang"  />
+  <project path="external/clang" name="l-amlogic/platform/external/clang" clone-depth="1" />
   <project path="external/cmockery" name="l-amlogic/platform/external/cmockery" />
   <project path="external/compiler-rt" name="l-amlogic/platform/external/compiler-rt"  />
   <project path="external/conscrypt" name="l-amlogic/platform/external/conscrypt"  />
