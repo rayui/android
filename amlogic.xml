@@ -167,7 +167,8 @@
   <project path="hardware/amlogic/audio" name="l-amlogic/platform/hardware/amlogic/audio"  />
   <project path="hardware/amlogic/consumerir" name="l-amlogic/platform/hardware/amlogic/consumerir"  />
   <project path="hardware/amlogic/camera" name="l-amlogic/platform/hardware/amlogic/camera"  />
-  <project path="hardware/amlogic/gralloc" name="l-amlogic/platform/hardware/amlogic/gralloc"  />
+  <project path="hardware/amlogic/gralloc" name="l-amlogic/platform/hardware/amlogic/gralloc"  /> 
+  <project path="hardware/amlogic/hdmi_cec" name="l-amlogic/platform/hardware/amlogic/hdmi_cec" />
   <project path="hardware/amlogic/hwcomposer" name="l-amlogic/platform/hardware/amlogic/hwcomposer"  />
   <project path="hardware/amlogic/libbt" name="l-amlogic/platform/hardware/amlogic/libbt"  />
   <project path="hardware/amlogic/lights" name="l-amlogic/platform/hardware/amlogic/lights"  />
