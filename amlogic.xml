@@ -194,7 +194,6 @@
   <project path="hardware/wifi/realtek/drivers/8812au" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8812au"  />
   <project path="hardware/wifi/realtek/drivers/8723bu" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8723bu"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx"  />
-  <project path="packages/amlogic/LibPlayer" name="l-amlogic/platform/packages/amlogic/LibPlayer"  />
   <project path="vendor/amlogic/apps/MboxLauncher2" name="l-amlogic/platform/packages/amlogic/MboxLauncher2" />
   <project path="vendor/amlogic/apps/MboxSettings" name="l-amlogic/platform/packages/amlogic/MboxSettings" />
   <project path="vendor/amlogic/apps/Miracast" name="l-amlogic/platform/packages/amlogic/Miracast" />
@@ -211,6 +210,7 @@
   <project path="vendor/amlogic/apps/system_monitor" name="l-amlogic/amlogic/tools/system_monitor"  />
   <project path="vendor/amlogic/frameworks" name="l-amlogic/vendor/amlogic/frameworks"  />
   <project path="vendor/amlogic/frameworks/av" name="l-amlogic/vendor/amlogic/frameworks/av"  />
+  <project path="vendor/amlogic/frameworks/av/LibPlayer" name="l-amlogic/platform/packages/amlogic/LibPlayer" />
   <project path="vendor/amlogic/prebuilt" name="l-amlogic/vendor/amlogic/prebuilt"  />
   <project path="vendor/amlogic/system" name="l-amlogic/vendor/amlogic/system"  />
   <project path="vendor/amlogic/tools" name="l-amlogic/vendor/amlogic/tools"  />
