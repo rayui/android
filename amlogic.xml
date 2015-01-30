@@ -112,6 +112,8 @@
   <project path="build" name="l-amlogic/platform/build"   >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <remove-project name="l-amlogic/platform/bionic" />
+  <project path="bionic" name="l-amlogic/platform/bionic" />
   <remove-project name="l-amlogic/platform/bootable/recovery" />
   <project path="bootable/recovery" name="l-amlogic/platform/bootable/recovery"   />
   <remove-project name="l-amlogic/platform/external/chromium_org" />
@@ -125,7 +127,11 @@
   <remove-project path="external/libpng" name="l-amlogic/platform/external/libpng" />
   <project path="external/libpng" name="l-amlogic/platform/external/libpng"   />
   <remove-project name="l-amlogic/platform/external/mksh" />
-  <project path="external/mksh" name="l-amlogic/platform/external/mksh"   />
+  <project path="external/mksh" name="l-amlogic/platform/external/mksh" />
+  <remove-project name="l-amlogic/platform/external/okhttp" />
+  <project path="external/okhttp" name="l-amlogic/platform/external/okhttp" />
+  <remove-project name="l-amlogic/platform/external/ppp" />
+  <project path="external/ppp" name="l-amlogic/platform/external/ppp"  />
   <remove-project name="l-amlogic/platform/external/skia" />
   <project path="external/skia" name="l-amlogic/platform/external/skia"   />
   <remove-project name="l-amlogic/platform/external/zlib" />
@@ -142,10 +148,26 @@
   <project path="frameworks/webview" name="l-amlogic/platform/frameworks/webview"   />
   <remove-project name="l-amlogic/platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="l-amlogic/platform/hardware/libhardware"   />
+  <remove-project name="l-amlogic/platform/libcore" />
+  <project path="libcore" name="l-amlogic/platform/libcore" />
+  <remove-project name="l-amlogic/platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="l-amlogic/platform/packages/apps/Bluetooth" />
   <remove-project name="l-amlogic/platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="l-amlogic/platform/packages/apps/Browser"  />
   <remove-project name="l-amlogic/platform/packages/apps/Camera2" />
   <project path="packages/apps/Camera2" name="l-amlogic/platform/packages/apps/Camera2"  />
+  <remove-project name="l-amlogic/platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="l-amlogic/platform/packages/apps/Calculator" />
+  <remove-project name="l-amlogic/platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="l-amlogic/platform/packages/apps/Gallery2" />
+  <remove-project name="l-amlogic/platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="l-amlogic/platform/packages/apps/Launcher2" />
+  <remove-project name="l-amlogic/platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="l-amlogic/platform/packages/apps/Music" />
+  <remove-project name="l-amlogic/platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="l-amlogic/platform/packages/apps/Contacts" />
+  <remove-project name="l-amlogic/platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="l-amlogic/platform/packages/inputmethods/LatinIME" />
   <remove-project name="l-amlogic/platform/packages/apps/TvSettings" />
   <project path="packages/apps/TvSettings" name="l-amlogic/platform/packages/apps/TvSettings"   />
   <remove-project name="l-amlogic/platform/packages/providers/MediaProvider" />
@@ -154,6 +176,10 @@
   <project path="system/core" name="l-amlogic/platform/system/core"   />
   <remove-project name="l-amlogic/platform/system/vold" />
   <project path="system/vold" name="l-amlogic/platform/system/vold"   />
+  <remove-project name="l-amlogic/platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="l-amlogic/platform/frameworks/opt/telephony" />
+  <remove-project name="l-amlogic/platform/external/libusb" />
+  <project path="external/libusb" name="l-amlogic/libusb" />
 
   <!-- add projects -->
   <project path="device/amlogic" name="l-amlogic/device/amlogic"  />
@@ -178,6 +204,7 @@
   <project path="hardware/amlogic/pmu" name="l-amlogic/platform/hardware/amlogic/pmu"  />
   <project path="hardware/amlogic/power" name="l-amlogic/platform/hardware/amlogic/power"  />
   <project path="hardware/amlogic/wifi" name="l-amlogic/platform/hardware/amlogic/wifi"  />
+  <project path="hardware/amlogic/thermal" name="l-amlogic/platform/hardware/amlogic/thermal" />
   <project path="hardware/amlogic/touch" name="l-amlogic/platform/hardware/amlogic/touch"  />
   <project path="hardware/amlogic/sensors" name="l-amlogic/platform/hardware/amlogic/sensors"  />
   <project path="hardware/amlogic/screen_source" name="l-amlogic/platform/hardware/amlogic/screen_source"  />
@@ -195,6 +222,7 @@
   <project path="hardware/wifi/realtek/drivers/8723bu" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8723bu"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx"  />
   <project path="vendor/amlogic/apps/MboxLauncher2" name="l-amlogic/platform/packages/amlogic/MboxLauncher2" />
+  <project path="vendor/amlogic/apps/PPPoE" name="l-amlogic/platform/packages/amlogic/PPPoE" />
   <project path="vendor/amlogic/apps/MboxSettings" name="l-amlogic/platform/packages/amlogic/MboxSettings" />
   <project path="vendor/amlogic/apps/Miracast" name="l-amlogic/platform/packages/amlogic/Miracast" />
   <project path="vendor/amlogic/apps/FileBrowser" name="l-amlogic/platform/packages/amlogic/FileBrowser"  />
@@ -208,17 +236,18 @@
   <project path="vendor/amlogic/apps/HdmiSwitch" name="l-amlogic/platform/packages/amlogic/HdmiSwitch" />
   <project path="vendor/amlogic/apps/IrBlaster" name="l-amlogic/amlogic/tools/ir_blaster" />
   <project path="vendor/amlogic/apps/system_monitor" name="l-amlogic/amlogic/tools/system_monitor"  />
+  <project path="vendor/amlogic/external/pppoe" name="l-amlogic/platform/external/pppoe" />
   <project path="vendor/amlogic/frameworks" name="l-amlogic/vendor/amlogic/frameworks"  />
   <project path="vendor/amlogic/frameworks/av" name="l-amlogic/vendor/amlogic/frameworks/av"  />
   <project path="vendor/amlogic/frameworks/av/LibPlayer" name="l-amlogic/platform/packages/amlogic/LibPlayer" />
+  <project path="vendor/amlogic/frameworks/av/LibPlayer" name="l-amlogic/platform/packages/amlogic/LibPlayer" />
   <project path="vendor/amlogic/prebuilt" name="l-amlogic/vendor/amlogic/prebuilt"  />
   <project path="vendor/amlogic/system" name="l-amlogic/vendor/amlogic/system"  />
+  <project path="vendor/amlogic/system/modem" name="l-amlogic/vendor/amlogic/modem" />
   <project path="vendor/amlogic/tools" name="l-amlogic/vendor/amlogic/tools"  />
 
 <!--
-  <project name="l-amlogic/platform/hardware/amlogic/wifi" path="hardware/amlogic/wifi"  />
   <project name="l-amlogic/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" />
-  <project path="common/customer" name="l-amlogic/kernel/customer"  />
   <project path="hardware/alsa_sound" name="l-amlogic/platform/hardware/alsa_sound" />
   <project path="hardware/amlogic/libstagefrighthw" name="l-amlogic/platform/hardware/amlogic/libstagefrighthw" />
   <project path="hardware/amlogic/gps" name="l-amlogic/platform/hardware/amlogic/gps" />
@@ -228,18 +257,13 @@
   <project path="hardware/broadcom/wlan" name="l-amlogic/platform/hardware/broadcom/wlan" />
   <project path="hardware/realtek/bluetooth" name="l-amlogic/platform/hardware/realtek/bluetooth" />
   <project path="hardware/wifi/broadcom/drivers/usi" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/usi" />
-  <project path="packages/amlogic/AppInstaller" name="l-amlogic/platform/packages/amlogic/AppInstaller" />
   <project path="packages/amlogic/Ereader" name="l-amlogic/platform/packages/amlogic/Ereader" />
-  <project path="packages/amlogic/FileBrowser" name="l-amlogic/platform/packages/amlogic/FileBrowser" />
   <project path="packages/amlogic/LibTsPlayer" name="l-amlogic/platform/packages/amlogic/LibTsPlayer" />
   <project path="packages/amlogic/PPPoE" name="l-amlogic/platform/packages/amlogic/PPPoE" />
   <project path="packages/amlogic/RemoteIME" name="l-amlogic/platform/packages/amlogic/RemoteIME"/>
   <project path="packages/amlogic/TvMiddleware" name="l-amlogic/platform/packages/amlogic/TvMiddleware" />
   <project path="packages/amlogic/DTVPlayer" name="l-amlogic/platform/packages/amlogic/DTVPlayer" />
-  <project path="uboot" name="l-amlogic/uboot"  />
-  <project path="uboot/customer" name="l-amlogic/uboot/customer"  />
   <project path="vendor/amlogic/dvb" name="l-amlogic/vendor/amlogic/dvb"   />
-  <project path="vendor/amlogic/prebuilt" name="l-amlogic/vendor/amlogic/prebuilt" />
   <project path="vendor/broadcom/apps/leexplorer" name="l-amlogic/vendor/broadcom/apps/leexplorer" />
   <project path="vendor/broadcom/apps/FmRadio" name="l-amlogic/vendor/broadcom/apps/FmRadio" />
   <project path="vendor/broadcom/frameworks" name="l-amlogic/vendor/broadcom/frameworks" />
