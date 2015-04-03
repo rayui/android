@@ -5,7 +5,7 @@
            fetch="ssh://git@openlinux.amlogic.com/" review="" />
   <default revision="l-amlogic"
            remote="openlinux"
-           dest-branch="l-amlogic"
+           dest-branch="l-amlogic-5.1.0_r1"
            sync-c="true"
            sync-j="1" />
 
