@@ -3,7 +3,7 @@
 
   <remote  name="openlinux"
            fetch="ssh://git@openlinux.amlogic.com/" review="" />
-  <default revision="l-amlogic"
+  <default revision="l-amlogic-5.1.0_r1"
            remote="openlinux"
            dest-branch="l-amlogic-5.1.0_r1"
            sync-c="true"
@@ -98,7 +98,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="l-amlogic/platform/external/chromium_org/third_party/libyuv" />
   <project path="external/chromium_org/third_party/mesa/src" name="l-amlogic/platform/external/chromium_org/third_party/mesa/src" />
   <project path="external/chromium_org/third_party/openmax_dl" name="l-amlogic/platform/external/chromium_org/third_party/openmax_dl" />
-  <project path="external/chromium_org/third_party/openssl" name="l-amlogic/platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="l-amlogic/platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="l-amlogic/platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="l-amlogic/platform/external/chromium_org/third_party/sfntly/cpp/src" />
@@ -199,12 +198,14 @@
   <project path="external/libutf" name="l-amlogic/platform/external/libutf"  />
   <project path="external/libvorbis" name="l-amlogic/platform/external/libvorbis"  />
   <project path="external/libvpx" name="l-amlogic/platform/external/libvpx"  />
+  <project path="external/libvterm" name="l-amlogic/platform/external/libvterm" />
   <project path="external/libxml2" name="l-amlogic/platform/external/libxml2"  />
   <project path="external/libyuv" name="l-amlogic/platform/external/libyuv"  />
   <project path="external/linux-tools-perf" name="l-amlogic/platform/external/linux-tools-perf"  />
   <project path="external/littlemock" name="l-amlogic/platform/external/littlemock"  />
   <project path="external/lldb" name="l-amlogic/platform/external/lldb"  />
   <project path="external/llvm" name="l-amlogic/platform/external/llvm"  />
+  <project path="external/lohit-fonts" name="l-amlogic/platform/external/lohit-fonts" />
   <project path="external/ltrace" name="l-amlogic/platform/external/ltrace"  />
   <project path="external/lzma" name="l-amlogic/platform/external/lzma"  />
   <project path="external/markdown" name="l-amlogic/platform/external/markdown"  />
@@ -230,6 +231,8 @@
   <project path="external/objenesis" name="l-amlogic/platform/external/objenesis"  />
   <project path="external/okhttp" name="l-amlogic/platform/external/okhttp"  />
   <project path="external/opencv" name="l-amlogic/platform/external/opencv"  />
+  <project path="external/openfst" name="l-amlogic/platform/external/openfst"/>
+  <project path="external/openssh" name="l-amlogic/platform/external/openssh" />
   <project path="external/openssl" name="l-amlogic/platform/external/openssl"  />
   <project path="external/oprofile" name="l-amlogic/platform/external/oprofile"  />
   <project path="external/owasp/sanitizer" name="l-amlogic/platform/external/owasp/sanitizer" />
@@ -312,7 +315,6 @@
   <project path="frameworks/opt/widget" name="l-amlogic/platform/frameworks/opt/widget"  />
   <project path="frameworks/rs" name="l-amlogic/platform/frameworks/rs"  />
   <project path="frameworks/support" name="l-amlogic/platform/frameworks/support"  />
-  <project path="frameworks/testing" name="l-amlogic/platform/frameworks/testing"  />
   <project path="frameworks/volley" name="l-amlogic/platform/frameworks/volley"  />
   <project path="frameworks/webview" name="l-amlogic/platform/frameworks/webview"  />
   <project path="frameworks/wilhelm" name="l-amlogic/platform/frameworks/wilhelm"  />
@@ -402,6 +404,7 @@
   <project path="packages/apps/SpeechRecorder" name="l-amlogic/platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="l-amlogic/platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="l-amlogic/platform/packages/apps/Tag" />
+  <project path="packages/apps/Terminal" name="l-amlogic/platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="l-amlogic/platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="l-amlogic/platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="l-amlogic/platform/packages/apps/VoiceDialer" />

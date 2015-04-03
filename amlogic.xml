@@ -220,6 +220,7 @@
   <project path="hardware/wifi/realtek/drivers/8811au" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8811au"  />
   <project path="hardware/wifi/realtek/drivers/8812au" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8812au"  />
   <project path="hardware/wifi/realtek/drivers/8723bu" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8723bu"  />
+  <project path="hardware/wifi/broadcom/drivers/usi" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/usi"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx"  />
   <project path="vendor/amlogic/apps/MboxLauncher2" name="l-amlogic/platform/packages/amlogic/MboxLauncher2" />
   <project path="vendor/amlogic/apps/PPPoE" name="l-amlogic/platform/packages/amlogic/PPPoE" />
