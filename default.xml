@@ -81,6 +81,7 @@
   <project path="external/chromium_org" name="l-amlogic/platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="l-amlogic/platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="l-amlogic/platform/external/chromium_org/testing/gtest" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="l-amlogic/platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/WebKit" name="l-amlogic/platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle" name="l-amlogic/platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/brotli/src" name="l-amlogic/platform/external/chromium_org/third_party/brotli/src" />
