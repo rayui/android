@@ -8,7 +8,7 @@
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="db3a257fea6c9397bb211196068521ff363440e9" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="d0d0dda40668995d69d8d25751289618baab798a" upstream="amlogic-3.14-dev"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="f1d74fbd10a26872895e3790cb91f61c1655582f" upstream="amlogic-3.14-dev"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="65b6b030c44a41708e2f886ced5fb550eb844b08" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic-5.1.0_r1"/>
@@ -264,7 +264,7 @@
   <project name="l-amlogic/platform/frameworks/minikin" path="frameworks/minikin" revision="253320d25fccbb49621926d49dcf5ef64cf529c6" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/ml" path="frameworks/ml" revision="c7a7e058e83dde47089502933de4e7b65aa47734" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/multidex" path="frameworks/multidex" revision="aa8394eaaa44582bbee403ce75746dc3ac643fb0" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/platform/frameworks/native" path="frameworks/native" revision="82747e9ec635f7e1cf3449c2f669c0dff969c7dc" upstream="l-amlogic-5.1.0_r1"/>
+  <project name="l-amlogic/platform/frameworks/native" path="frameworks/native" revision="3b1de8da2cdc0883f2153863ddb41360d33f7f18" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="l-amlogic-5.1.0_r1"/>
@@ -333,7 +333,7 @@
   <project name="l-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="505953b79fa23e17dc1e7541bf3298452ccb0f89" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="fcce705d0e8673bc5fcbfdb78c5402294ab9d343" upstream="l-amlogic-5.1.0_r1"/>
+  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="500874a7c4bc5394a4dbc96391568cb05726322d" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="91af9e068050a50354756c03e89ea7144cd1699d" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="4c62d351e2976714559737720771220c9261252b" upstream="l-amlogic-5.1.0_r1"/>
