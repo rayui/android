@@ -101,7 +101,7 @@
   <project name="l-amlogic/platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/f2fs-tools" path="external/f2fs-tools" revision="3f4408b13665bd82dd7edf5c76ed9dccc3a3fce7" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/fdlibm" path="external/fdlibm" revision="a418ed7226f330c2506ff420274a8a289fd2f73c" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/platform/external/ffmpeg" path="external/ffmpeg" revision="a9d5b829b74c1f60359af52e7acc5cdb0cf8009a" upstream="l-amlogic-5.1.0_r1"/>
+  <project name="l-amlogic/platform/external/ffmpeg" path="external/ffmpeg" revision="971fa47da16cd85b7bbb5f8303a55c00b88996ca" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/fio" path="external/fio" revision="6f4e805b805f1ab3025482e471147bb51efa99bd" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/flac" path="external/flac" revision="457fe12432caac0de0e430bb976dab681b3ae1a2" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/fonttools" path="external/fonttools" revision="111462a9aae8a91c57249e93b9c269e933ee56c0" upstream="l-amlogic-5.1.0_r1"/>
@@ -254,7 +254,7 @@
   <project name="l-amlogic/platform/external/zlib" path="external/zlib" revision="52d8b8698eb57547032bccdce2c8701bf8781ca9" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/platform/frameworks/av" path="frameworks/av" revision="97288c265c22b6094e122ab5b9bde62a77b4d5c3" upstream="l-amlogic-5.1.0_r1"/>
+  <project name="l-amlogic/platform/frameworks/av" path="frameworks/av" revision="2d64348b794ed9051c7d3f6ffcc8adb34698883e" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/base" path="frameworks/base" revision="20eafb6b35cb8df242e3d4624aeefa6bedcb7bbc" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="l-amlogic-5.1.0_r1"/>
@@ -333,7 +333,7 @@
   <project name="l-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="505953b79fa23e17dc1e7541bf3298452ccb0f89" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic-5.1.0_r1"/>
-  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="500874a7c4bc5394a4dbc96391568cb05726322d" upstream="l-amlogic-5.1.0_r1"/>
+  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="eb7d0a12d488d8b1a52096ebd94fcea8dc7acae9" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="91af9e068050a50354756c03e89ea7144cd1699d" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic-5.1.0_r1"/>
   <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="4c62d351e2976714559737720771220c9261252b" upstream="l-amlogic-5.1.0_r1"/>
