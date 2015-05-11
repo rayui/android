@@ -101,7 +101,7 @@
   <project name="l-amlogic/platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/f2fs-tools" path="external/f2fs-tools" revision="fc24ac8347630a14d62ffafa93a27ec3b81cc44b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/fdlibm" path="external/fdlibm" revision="a418ed7226f330c2506ff420274a8a289fd2f73c" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/external/ffmpeg" path="external/ffmpeg" revision="3c8ec45bf5a14c5abb49103f3da1b02018122533" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/external/ffmpeg" path="external/ffmpeg" revision="0f15305a23bd9623a12c8dc798a6e18c0aab326b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/fio" path="external/fio" revision="6f4e805b805f1ab3025482e471147bb51efa99bd" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/flac" path="external/flac" revision="457fe12432caac0de0e430bb976dab681b3ae1a2" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/fonttools" path="external/fonttools" revision="111462a9aae8a91c57249e93b9c269e933ee56c0" upstream="l-amlogic"/>
@@ -329,7 +329,7 @@
   <project name="l-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="5292ae45417dbdb84bbba01dfd7d24821d548a8f" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="f876810296acd654a7a344856ca87ffaae111951" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="fe6e99294a7ea67146679f9708b7d3e4efa91407" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="823f83e8709d0dfbf3615a24ce56dc3d19fb5a10" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="4c62d351e2976714559737720771220c9261252b" upstream="l-amlogic"/>
