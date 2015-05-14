@@ -144,10 +144,14 @@
   <project path="frameworks/native" name="l-amlogic/platform/frameworks/native"   />
   <remove-project name="l-amlogic/platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="l-amlogic/platform/frameworks/opt/net/wifi"   />
+  <remove-project name="l-amlogic/platform/frameworks/opt/net/ethernet" />
+  <project path="frameworks/opt/net/ethernet" name="l-amlogic/platform/frameworks/opt/net/ethernet"   />
   <remove-project name="l-amlogic/platform/frameworks/webview" />
   <project path="frameworks/webview" name="l-amlogic/platform/frameworks/webview"   />
   <remove-project name="l-amlogic/platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="l-amlogic/platform/hardware/libhardware"   />
+  <remove-project name="l-amlogic/platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="l-amlogic/platform/hardware/libhardware_legacy"   />
   <remove-project name="l-amlogic/platform/libcore" />
   <project path="libcore" name="l-amlogic/platform/libcore" />
   <remove-project name="l-amlogic/platform/packages/apps/Bluetooth" />
@@ -220,8 +224,9 @@
   <project path="hardware/wifi/realtek/drivers/8811au" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8811au"  />
   <project path="hardware/wifi/realtek/drivers/8812au" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8812au"  />
   <project path="hardware/wifi/realtek/drivers/8723bu" name="l-amlogic/platform/hardware/wifi/realtek/drivers/8723bu"  />
-  <project path="hardware/wifi/broadcom/drivers/usi" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/usi"  />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx"  />
+  <project path="hardware/wifi/broadcom/drivers/usi" name="l-amlogic/platform/hardware/wifi/broadcom/drivers/usi"  />
+  <project path="hardware/realtek/bluetooth" name="l-amlogic/platform/hardware/realtek/bluetooth"  />
   <project path="vendor/amlogic/apps/MboxLauncher2" name="l-amlogic/platform/packages/amlogic/MboxLauncher2" />
   <project path="vendor/amlogic/apps/PPPoE" name="l-amlogic/platform/packages/amlogic/PPPoE" />
   <project path="vendor/amlogic/apps/MboxSettings" name="l-amlogic/platform/packages/amlogic/MboxSettings" />
@@ -231,6 +236,7 @@
   <project path="vendor/amlogic/apps/SubTitle" name="l-amlogic/platform/packages/amlogic/SubTitle"  />
   <project path="vendor/amlogic/apps/AppInstaller" name="l-amlogic/platform/packages/amlogic/AppInstaller"  />
   <project path="vendor/amlogic/apps/NativeImagePlayer" name="l-amlogic/platform/packages/amlogic/NativeImagePlayer" />
+  <project path="vendor/amlogic/apps/RemoteIME" name="l-amlogic/platform/packages/amlogic/RemoteIME" />
   <project path="vendor/amlogic/apps/OTAUpgrade2" name="l-amlogic/platform/packages/amlogic/OTAUpgrade2" />
   <project path="vendor/amlogic/apps/DLNA" name="l-amlogic/platform/packages/amlogic/DLNA" />
   <project path="vendor/amlogic/apps/HDMI_in" name="l-amlogic/platform/packages/amlogic/HDMI_in" />
@@ -246,6 +252,7 @@
   <project path="vendor/amlogic/system" name="l-amlogic/vendor/amlogic/system"  />
   <project path="vendor/amlogic/system/modem" name="l-amlogic/vendor/amlogic/modem" />
   <project path="vendor/amlogic/tools" name="l-amlogic/vendor/amlogic/tools"  />
+  <project path="vendor/amlogic/external/alsa-lib" name="l-amlogic/platform/external/alsa-lib"  />
 
 <!--
   <project name="l-amlogic/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" />
