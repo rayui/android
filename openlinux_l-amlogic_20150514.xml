@@ -8,7 +8,7 @@
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
   <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="28501a503c8724f7b0e4184ec02985b40d36ce89" upstream="l-amlogic"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="d411dff66cb1cdf45aea6795f5a46e5d3cc56374" upstream="l-amlogic"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="81d8083328f7b4c349dfa13c9731a61e5993f2e6" upstream="openlinux_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic"/>
@@ -299,7 +299,7 @@
   <project name="l-amlogic/platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" revision="50fb0f07e0f10718563d902b24939488be5c5f20" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/libbt" path="hardware/amlogic/libbt" revision="786153248da71dae49c7c89d2f9e961b41e8cb9a" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/lights" path="hardware/amlogic/lights" revision="3cb547df50101f3358597ecd61fbfd03519f8a19" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/hardware/amlogic/mali" path="hardware/amlogic/mali" revision="c24ef816defe5e7742cee32cef3ac60d766f28d1" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/hardware/amlogic/mali" path="hardware/amlogic/mali" revision="d7364afac70b9c00eff04911660a79d023a90825" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/memtrack" path="hardware/amlogic/memtrack" revision="5ce1d807c1a1ee2e59b35bed9199474eb721e665" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/nand" path="hardware/amlogic/nand" revision="64297e1b540c64535cf2a47705638e9c3d334fa1" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/pmu" path="hardware/amlogic/pmu" revision="97738d04cd4155f62a2a3a794a24c8a23a745d6e" upstream="l-amlogic"/>
