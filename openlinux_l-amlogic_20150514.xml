@@ -256,7 +256,7 @@
   <project name="l-amlogic/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/av" path="frameworks/av" revision="33e3e230bc604e88b2286c4f38d03ff92c725f5f" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/frameworks/base" path="frameworks/base" revision="4afaf420a73243fa2e90e09c8da2accb40d093f9" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/frameworks/base" path="frameworks/base" revision="ecacb28b7236f98e1b7ce8caca3946bd9ba477d0" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794" upstream="l-amlogic"/>
@@ -312,7 +312,7 @@
   <project name="l-amlogic/platform/hardware/arm/gpu" path="hardware/arm/gpu" revision="70bc3b1628e8f66b9fdcff36ed83af389457c619" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e675e9cdcd57cba9146f76d2589d27ce593c0bc6" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/libhardware" path="hardware/libhardware" revision="0468b44702434b4f6912889806907683062ca731" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="228a524346e6a96b6a3b067765cd9ec2a7a3c017" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="095c75a8afec1d0834e314a807d0cdf7e86fc34f" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/realtek/bluetooth" path="hardware/realtek/bluetooth" revision="a399b700829a98b42d102dc8590183018698ecd8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/ril" path="hardware/ril" revision="2210a0276fa000ef7224f26b24f00cb34a372e8d" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="04112b7e5184f1d32474a836531e0a5e1664649a" upstream="l-amlogic"/>
