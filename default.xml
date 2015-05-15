@@ -294,6 +294,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/amlogic/wifi" name="android_hardware_amlogic_wifi" groups="amlogic" remote="origin" revision="refs/heads/4412_4.4.4_master" />
+  <project path="hardware/backports" name="android_hardware_backports" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/hardkernel" name="android_hardware_hardkernel" remote="origin" revision="refs/heads/4412_4.4.4_master" />
@@ -311,7 +313,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/realtek" name="android_hardware_realtek" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="hardware/ril" name="android_hardware_ril" remote="origin" revision="refs/heads/4412_4.4.4_master" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
@@ -319,6 +320,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" groups="amlogic" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/odroid-3.0.y-android" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
