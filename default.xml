@@ -9,7 +9,7 @@
            push="https://github.com/codewalkerster" />
 
   <remote  name="hardkernel"
-           fetch="https://github.com/hardkernel/" />
+           fetch="https://github.com/hardkernel" />
 
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
