@@ -7,8 +7,8 @@
   <project name="l-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="l-amlogic"/>
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
-  <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="28501a503c8724f7b0e4184ec02985b40d36ce89" upstream="l-amlogic"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="81d8083328f7b4c349dfa13c9731a61e5993f2e6" upstream="openlinux_20150514_base"/>
+  <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="45fe3a36886a0188e8212d69e47a4c8502993b44" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="30d6b593e05caea80ba0c360ee4f2e45256eecce" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic"/>
@@ -255,8 +255,8 @@
   <project name="l-amlogic/platform/external/zlib" path="external/zlib" revision="52d8b8698eb57547032bccdce2c8701bf8781ca9" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/frameworks/av" path="frameworks/av" revision="33e3e230bc604e88b2286c4f38d03ff92c725f5f" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/frameworks/base" path="frameworks/base" revision="ecacb28b7236f98e1b7ce8caca3946bd9ba477d0" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/frameworks/av" path="frameworks/av" revision="dbc84c21b99a6bc9f2180dc156ffb5de5e0d4a65" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/platform/frameworks/base" path="frameworks/base" revision="1bf5a4b2bc697c14345a3bdd78339c1292957ba5" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794" upstream="l-amlogic"/>
@@ -276,7 +276,7 @@
   <project name="l-amlogic/platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/opt/mms" path="frameworks/opt/mms" revision="4a5bba9cfefb96706390307b7cf06271b7f9f5e2" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="7392afc824050f13b61532c8ebdcf6ad02d34f86" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="dfdbd6fcdc9a63e3f46435e54541474690c7a00e" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="e9ab6112e1e8e11d39ee669f21e7371d94084eca" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="cf38b8464007ebf626fc0d61a646491fc3d794cd" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="556af95a22e11a4a1f26f9ab1fdb8f800fa9efed" upstream="l-amlogic"/>
@@ -292,7 +292,7 @@
   <project name="l-amlogic/platform/frameworks/webview" path="frameworks/webview" revision="d6bb64cd3181b48154841fac8d5bc8b795631aea" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="0f6da1a299c8dd924d19714ee69d343915c32d2c" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" revision="158ba0aaa4686ff2e250101a79ecbe4adce224bb" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="37e96b409068618ae1b347d4fc63bf5046bc9ca4" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="4feff6bf128a8add396f1cb1335147dcc2e92b86" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/hardware/amlogic/consumerir" path="hardware/amlogic/consumerir" revision="fe3345470e1f6dc1944cb95881a1f09b49acdf7c" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" revision="5b6e0a8dfd58c470ba19c8e3acb76d14bf28bcf9" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="164428202a6735675c808bdbf4cdf2eb1a764b0e" upstream="l-amlogic"/>
@@ -331,17 +331,17 @@
   <project name="l-amlogic/platform/libnativehelper" path="libnativehelper" revision="a75fb2a636ceafac9ddfb580af614e5ef0edf977" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/ndk" path="ndk" revision="e4b362d6b023e419d595938154c6093d1c6f0d9b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/apps/AppInstaller" revision="ae549f5a0b98f446563fd6503cb078c80670bcf7" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/apps/DLNA" revision="20e435ccbefcc637f077874f06b5e1ebeb83f98f" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/amlogic/DLNA" path="vendor/amlogic/apps/DLNA" revision="4dc4b851b9e1e7f9f210689917d0aebf21528013" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="505953b79fa23e17dc1e7541bf3298452ccb0f89" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="ad6c312906afc5596bfc716875fd2e220727019e" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="7503c9c8093b3674471cf583ee4e9a55c10efd9f" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="ee66a991ac4cc65dff596d95de50e004b1aa6637" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="4c62d351e2976714559737720771220c9261252b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/apps/NativeImagePlayer" revision="923f2b846cd9566e9f826f775abc0c63394b0fe7" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/apps/OTAUpgrade2" revision="a9f31029abdea3b019eb41dcd60e7b382ad0a6d5" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/PPPoE" path="vendor/amlogic/apps/PPPoE" revision="415e168d8da16be4a99cfa311ac9343911ee6c52" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/amlogic/PPPoE" path="vendor/amlogic/apps/PPPoE" revision="739963ec7abee7ec021c7cd85028b53d0a9e5b22" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/amlogic/RemoteIME" path="vendor/amlogic/apps/RemoteIME" revision="0627d4b1ff66ffdc9ca18f0ca28da8ae41cb7b2e" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/apps/SubTitle" revision="d30353e00585d3f4f01e3115d1fd3e6b361c8843" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="cdf44e447a1f70a88ddbfb8873a460dfa9aea054" upstream="l-amlogic"/>
@@ -389,7 +389,7 @@
   <project name="l-amlogic/platform/packages/apps/Stk" path="packages/apps/Stk" revision="8f86843a3773a9eb03b4d4beabd2ce3c654f4113" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/Tag" path="packages/apps/Tag" revision="4aa14f03551fafee2b87eccbc4dafee04d46a9b8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="1a161f759167dc8824ea40d3f661a69799b59e3b" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="22b18659c93f030cb4267beb895dbefed7ae5e4a" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="7e91765f61d7697e978448954bb54e07bd8c5430" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="d7917089078210e30e5136822e63f530c9e66268" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="fd726afabfb115a17c1b4dca8d2129ca3501f1f9" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/experimental" path="packages/experimental" revision="b93c3115bf873d5b052a8a4e64720316257f49b6" upstream="l-amlogic"/>
@@ -439,7 +439,7 @@
   <project name="l-amlogic/platform/prebuilts/tools" path="prebuilts/tools" revision="5b2be74a88e09e758cb86d18deae9cd29006009a" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/sdk" path="sdk" revision="7859e2e738542baf96c15e6c8b50bbdb410131b0" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/system/core" path="system/core" revision="6997b7b3622c329281a37819f6849fb73bb87935" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/system/extras" path="system/extras" revision="8e9fa76016a34ec53b83157032e38fad06af1135" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/system/extras" path="system/extras" revision="063d4e791bf9d64f8eb3cb2054d12aed447bcfbc" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/system/keymaster" path="system/keymaster" revision="224da076426f2ab3124f1bd2f6171f43a09876bc" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/system/media" path="system/media" revision="2d6976f08018613a6206ba74da3142ca4b85bd2d" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/system/netd" path="system/netd" revision="2e5fa934741dbf8be9729e1250f6cf37b8d9027f" upstream="l-amlogic"/>
@@ -447,12 +447,12 @@
   <project name="l-amlogic/platform/system/vold" path="system/vold" revision="75ed85336c07d2d90b64211d84ffd17af98cd3ef" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="l-amlogic"/>
-  <project name="l-amlogic/uboot" path="uboot" revision="048f5ef069c501b70c6515411f1fceffe2a52482" upstream="l-amlogic"/>
-  <project name="l-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="4d3387ccf44e95fb9098f00890f600c209feb7d4" upstream="l-amlogic"/>
+  <project name="l-amlogic/uboot" path="uboot" revision="4631abb044879c88103f3fd97e87517422b5635f" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="a3771f22f32af23b0c47ef76c4ef0e33a7955b8b" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="d1c26b0343594378559995102c477580de4512a3" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="6af821c2644bc959034d1132b344e907c6f322a0" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="l-amlogic"/>
-  <project name="l-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="71d427ba98561378514e7ebe98bdf08caa4d3b6a" upstream="l-amlogic"/>
+  <project name="l-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="c2392da938788a1ac3712f904835935408cc49f2" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="de9a27ddc78ea45d194e6a867ccafc35393ac293" upstream="l-amlogic"/>
 </manifest>
