@@ -8,7 +8,7 @@
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
   <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="45fe3a36886a0188e8212d69e47a4c8502993b44" upstream="openlinux_l-amlogic_20150514_base"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="30d6b593e05caea80ba0c360ee4f2e45256eecce" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="9accbed35ad58ebd7cd698971275c5ccfbbe84d3" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic"/>
@@ -338,7 +338,7 @@
   <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="7503c9c8093b3674471cf583ee4e9a55c10efd9f" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="ee66a991ac4cc65dff596d95de50e004b1aa6637" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="4c62d351e2976714559737720771220c9261252b" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="a5058558fa84911c3d000f8ffc14773b19496e1f" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/apps/NativeImagePlayer" revision="923f2b846cd9566e9f826f775abc0c63394b0fe7" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/apps/OTAUpgrade2" revision="a9f31029abdea3b019eb41dcd60e7b382ad0a6d5" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/PPPoE" path="vendor/amlogic/apps/PPPoE" revision="739963ec7abee7ec021c7cd85028b53d0a9e5b22" upstream="openlinux_l-amlogic_20150514_base"/>
@@ -346,7 +346,7 @@
   <project name="l-amlogic/platform/packages/amlogic/SubTitle" path="vendor/amlogic/apps/SubTitle" revision="d30353e00585d3f4f01e3115d1fd3e6b361c8843" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="cdf44e447a1f70a88ddbfb8873a460dfa9aea054" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="53603f161a0332711ce8ae23bd237bc40880bfec" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="f1f3ec2e48cdf15829aa26fb3ce269cd438bb731" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="c6d24a4792c26ec11a6cc6e79f245ed77841aecd" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/Browser" path="packages/apps/Browser" revision="79d790a5b8d3f508aee50c24b5c35bebfaa888da" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="0e7543d0f63737e77e84333f57bb1fc32a0a0b7d" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="aecf6f5123faec6d9071a3e595ae12fb3dcefa4d" upstream="l-amlogic"/>
@@ -447,9 +447,9 @@
   <project name="l-amlogic/platform/system/vold" path="system/vold" revision="75ed85336c07d2d90b64211d84ffd17af98cd3ef" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="l-amlogic"/>
-  <project name="l-amlogic/uboot" path="uboot" revision="4631abb044879c88103f3fd97e87517422b5635f" upstream="openlinux_l-amlogic_20150514_base"/>
-  <project name="l-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="a3771f22f32af23b0c47ef76c4ef0e33a7955b8b" upstream="openlinux_l-amlogic_20150514_base"/>
-  <project name="l-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="d1c26b0343594378559995102c477580de4512a3" upstream="l-amlogic"/>
+  <project name="l-amlogic/uboot" path="uboot" revision="99c5e8c3b2f2f0dbf91dac25b951c74bfebe00c5" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="6daed7faf45f359935959813d67070bcab1b539a" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="ec34f1311c801078f3ea2a530c62f2cd9db3690c" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="6af821c2644bc959034d1132b344e907c6f322a0" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="c2392da938788a1ac3712f904835935408cc49f2" upstream="openlinux_l-amlogic_20150514_base"/>
