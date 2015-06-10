@@ -248,7 +248,7 @@
   <project name="l-amlogic/platform/external/vixl" path="external/vixl" revision="29d04c1f6d91ab8336f419bd854e5badcccbc706" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/webp" path="external/webp" revision="af51b94a435132e9014c324e25fb686b3d07a8c8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/webrtc" path="external/webrtc" revision="96907bb2db8383d06970a5d23163bfcbc50f8089" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="326450198720862ade868801cc2f43597f3c1fd8" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="d941d68e68ab38b7d291667294febff58ac30c3c" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/external/yaffs2" path="external/yaffs2" revision="a2cff2275e1b501ff478b03757d6e4f05fddc2db" upstream="l-amlogic"/>
@@ -318,7 +318,7 @@
   <project name="l-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="04112b7e5184f1d32474a836531e0a5e1664649a" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/broadcom/drivers/usi" path="hardware/wifi/broadcom/drivers/usi" revision="583b48637f6abfe13074075d7af734cfe0e4f185" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" path="hardware/wifi/realtek/drivers/8188eu" revision="39fc9d97bcfe02c61723552bca3c00af9d43c199" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8189es" path="hardware/wifi/realtek/drivers/8189es" revision="7939887f24b25043938e8786bf1e6c4d6255ad88" upstream="l-amlogic"/>
+  <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8189es" path="hardware/wifi/realtek/drivers/8189es" revision="834d84162cdc588fe9b8854acacf1d14ec366d95" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" path="hardware/wifi/realtek/drivers/8192cu" revision="4f9ce1fbafd98e0e635cd9a65b855154796bd8c9" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8192du" path="hardware/wifi/realtek/drivers/8192du" revision="f685202d762eaa8824cfba829d26dc1632f12e5b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" path="hardware/wifi/realtek/drivers/8192eu" revision="afee0b36020c7eef12d4aa7622338def319c4529" upstream="l-amlogic"/>
