@@ -8,7 +8,7 @@
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
   <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="69a9879a11e7ca624c6970fea6f68fb1a6a89ac4" upstream="openlinux_l-amlogic_20150514_base"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="9accbed35ad58ebd7cd698971275c5ccfbbe84d3" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="5a429e60601c9447a13499fe1bda2919f0f17e83" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic"/>
@@ -335,7 +335,7 @@
   <project name="l-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="505953b79fa23e17dc1e7541bf3298452ccb0f89" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="7503c9c8093b3674471cf583ee4e9a55c10efd9f" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="368ff123af2c9df7784634ef2ebe5940c5e0aba6" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="ee66a991ac4cc65dff596d95de50e004b1aa6637" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="01822d49b55be18236954fead86cdb507805daa3" upstream="l-amlogic"/>
