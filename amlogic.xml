@@ -248,6 +248,7 @@
   <project path="vendor/amlogic/apps/IrBlaster" name="l-amlogic-gx/amlogic/tools/ir_blaster" />
   <project path="vendor/amlogic/apps/system_monitor" name="l-amlogic-gx/amlogic/tools/system_monitor"  />
   <project path="vendor/amlogic/external/pppoe" name="l-amlogic-gx/platform/external/pppoe" />
+  <project path="vendor/amlogic/external/libtiff" name="l-amlogic-gx/platform/external/libtiff" />
   <project path="vendor/amlogic/frameworks" name="l-amlogic-gx/vendor/amlogic/frameworks"  />
   <project path="vendor/amlogic/frameworks/av" name="l-amlogic-gx/vendor/amlogic/frameworks/av"  />
   <project path="vendor/amlogic/frameworks/pppoe" name="l-amlogic-gx/vendor/amlogic/frameworks/pppoe" />
