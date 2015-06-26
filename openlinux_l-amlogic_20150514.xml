@@ -8,14 +8,14 @@
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
   <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="69a9879a11e7ca624c6970fea6f68fb1a6a89ac4" upstream="openlinux_l-amlogic_20150514_base"/>
-  <project name="l-amlogic/kernel/common" path="common" revision="5a429e60601c9447a13499fe1bda2919f0f17e83" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/kernel/common" path="common" revision="0c943e252bd0a7ae68ae24ff3147d66d451328ef" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/art" path="art" revision="170ecf559647e92c887964fb8462ff30955bad11" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/bionic" path="bionic" revision="afdbdb302175a886a6cf088fbc50c78b0e64dceb" upstream="l-amlogic"/>
   <project name="l-amlogic/platform/bootable/recovery" path="bootable/recovery" revision="91e13ae3788eec7b23341e212cff4ef7e27d6948" upstream="l-amlogic"/>
-  <project name="l-amlogic/platform/build" path="build" revision="df0dc3749a1766130a491a41f9e87444d7b4b7e9" upstream="l-amlogic">
+  <project name="l-amlogic/platform/build" path="build" revision="8d73e0a47b5a2ba586cde7859d058f3b4e6adc5b" upstream="openlinux_l-amlogic_20150514_base">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="l-amlogic/platform/cts" path="cts" revision="e734883838daaef1726a5dfff3388b77d333a1ac" upstream="l-amlogic"/>
