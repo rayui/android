@@ -7,15 +7,15 @@
   <project name="l-amlogic-gx/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/bagder/curl" path="external/curl" revision="6c169b2fc3ddc4b6f3d0811fa17b744fc9861436" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/device/amlogic" path="device/amlogic" revision="ed0f382e4684790cc27aaab9179901a93901d067" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/kernel/common" path="common" revision="59d81c851561c040867417593b508d9ed3ea92f0" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/device/amlogic" path="device/amlogic" revision="3a6ba1c551a65a9149ccfc3af3dc76c22a75cfbf" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/kernel/common" path="common" revision="3dbfbc45cfab121bd6041bd5e66d3a57cd3b4a96" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/linux/amlogic/tvin" path="hardware/tvin" revision="fcabc12113f9d453269283d85bc005512ad74fda" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/linux/amlogic/tvin" path="hardware/tvin" revision="1da824197c11bf83eea22153256481b800984860" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/art" path="art" revision="170ecf559647e92c887964fb8462ff30955bad11" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/bionic" path="bionic" revision="afdbdb302175a886a6cf088fbc50c78b0e64dceb" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/bootable/recovery" path="bootable/recovery" revision="91e13ae3788eec7b23341e212cff4ef7e27d6948" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/build" path="build" revision="c4e4f10a55053b990711abf9dc60fc057d09bcb5" upstream="l-amlogic-gx">
+  <project name="l-amlogic-gx/platform/bootable/recovery" path="bootable/recovery" revision="6fa14bc26b9fa8665f8c48f8e16a85303ca8bbc7" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/build" path="build" revision="69965a90d59452296b786a1cda9d25ce83aad4d8" upstream="l-amlogic-gx">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="l-amlogic-gx/platform/cts" path="cts" revision="e734883838daaef1726a5dfff3388b77d333a1ac" upstream="l-amlogic-gx"/>
@@ -85,7 +85,7 @@
   <project name="l-amlogic-gx/platform/external/conscrypt" path="external/conscrypt" revision="feca781b5ad72ed1fe5688acc9eebee55e4601b1" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/deqp" path="external/deqp" revision="8460b8642f48b81894c3cc6fc6d423811da60648" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/dexmaker" path="external/dexmaker" revision="00bf6870ff223dec90d9fac39e5dfb464a59f6de" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/external/dhcpcd" path="external/dhcpcd" revision="c1c270dba20afa63a5b7769646cf721d0fa7c431" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/external/dhcpcd" path="external/dhcpcd" revision="a2f639c1994c9a9cc48d62f137e7d3b7509cf033" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/dnsmasq" path="external/dnsmasq" revision="e226badb960695447af4c480bb183ec35c411bbf" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/doclava" path="external/doclava" revision="07f1dae3b9a9d8222ffa18e2d878c27c01c6268f" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/droiddriver" path="external/droiddriver" revision="d22fedf52b8cbf700142a4448b3f59254b37851e" upstream="l-amlogic-gx"/>
@@ -164,6 +164,7 @@
   <project name="l-amlogic-gx/platform/external/libselinux" path="external/libselinux" revision="6608a1875b07370733d0f93f3a52febcef3442bf" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/libsepol" path="external/libsepol" revision="bd76d1c1f853604b622e08fff34376be574378d4" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/libssh2" path="external/libssh2" revision="2bb40f2445cab3ba588efb29e1835cdba2b27248" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/external/libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/libunwind" path="external/libunwind" revision="303573bacd558f7be18eaf84502cba1f82bbbcd5" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/libusb-compat" path="external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/libutf" path="external/libutf" revision="9d00b26b4a6fbdf65f4adcd841e9d885d9102b94" upstream="l-amlogic-gx"/>
@@ -224,7 +225,7 @@
   <project name="l-amlogic-gx/platform/external/scrypt" path="external/scrypt" revision="dde037b82e5cd6215244e3240dbaad417928eafa" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/sepolicy" path="external/sepolicy" revision="37e296f19c9e69aa74df710ad7f0f58ce585bdcf" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/sfntly" path="external/sfntly" revision="6723e5241a45c6de224c96384a595a1bf5bc5449" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/external/skia" path="external/skia" revision="92d310fc6bd67f6552f51b01ec5ac8a34b1b9bd6" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/external/skia" path="external/skia" revision="7832c285752f6d756f82b1fe38a0438fccf7c327" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/smack" path="external/smack" revision="d7955ce24d294fb2014c59d11fca184471056f44" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/smali" path="external/smali" revision="5fd395796e215a80c722815bf180728948868f18" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/sonivox" path="external/sonivox" revision="c0723d864b10fbd6c5cbbfa65e886c5e9eb3aafd" upstream="l-amlogic-gx"/>
@@ -255,8 +256,8 @@
   <project name="l-amlogic-gx/platform/external/zlib" path="external/zlib" revision="6f8f50fbd00e69df37eb6d8c99fb3bdd08587c51" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/frameworks/av" path="frameworks/av" revision="2e4eeae0db564ef921cf39b755816fd49d8a6dda" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/frameworks/base" path="frameworks/base" revision="6fa7e59d21908fe32cd5f3e566d7fb5dfafa7eb0" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/frameworks/av" path="frameworks/av" revision="e2051fe0d48cf764ccd0d078f474c62ba5057c8d" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/frameworks/base" path="frameworks/base" revision="067146c8f074c8ce19246333d11e55f6cd560caf" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794" upstream="l-amlogic-gx"/>
@@ -265,7 +266,7 @@
   <project name="l-amlogic-gx/platform/frameworks/minikin" path="frameworks/minikin" revision="253320d25fccbb49621926d49dcf5ef64cf529c6" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/ml" path="frameworks/ml" revision="c7a7e058e83dde47089502933de4e7b65aa47734" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/multidex" path="frameworks/multidex" revision="aa8394eaaa44582bbee403ce75746dc3ac643fb0" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/frameworks/native" path="frameworks/native" revision="0d2a33ae23a3db17877cda39882a1c50206e6266" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/frameworks/native" path="frameworks/native" revision="3d5b723e5e04abfaf41c1142dc293569bc41f5c9" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="l-amlogic-gx"/>
@@ -276,10 +277,10 @@
   <project name="l-amlogic-gx/platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/mms" path="frameworks/opt/mms" revision="4a5bba9cfefb96706390307b7cf06271b7f9f5e2" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="dfdbd6fcdc9a63e3f46435e54541474690c7a00e" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="88d6facf2802f22895680b79d4768d9d0b0b6fc6" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="e9ab6112e1e8e11d39ee669f21e7371d94084eca" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="cf38b8464007ebf626fc0d61a646491fc3d794cd" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="556af95a22e11a4a1f26f9ab1fdb8f800fa9efed" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="26a0ec56e47a51b26befd5dfb319a4b486c64b4e" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="dde10165081ab6a08b339f88308132fd3221e470" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="c41e64ca8aecc294d911f9eca039f91157a3f70a" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="67b45579dba1760aed241daabe2f10cec44b59d2" upstream="l-amlogic-gx"/>
@@ -291,31 +292,31 @@
   <project name="l-amlogic-gx/platform/frameworks/volley" path="frameworks/volley" revision="b3b7e68078c4579f11c1c559f027f4edde70bdc9" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/webview" path="frameworks/webview" revision="d6bb64cd3181b48154841fac8d5bc8b795631aea" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="0f6da1a299c8dd924d19714ee69d343915c32d2c" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" revision="c36dd91bfe07ca3ee11994db31f8e6fe9e6f0e62" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" revision="6c039392cad2c396122cb279b110a09cec820071" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="860e1e865f31cd7b7cd424e4af06898a178028f9" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/consumerir" path="hardware/amlogic/consumerir" revision="d690fc2b76539edc73f5e1715c3bf1ef75796c08" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" revision="1e25ae22626077dcd11eee673c840414715c02e7" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="a3ce369e7b2263da9f4455632cab8676eae1531b" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" revision="9f9aa5907c0219a52455a5a05aaffb38d268deb4" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/amlogic/libbt" path="hardware/amlogic/libbt" revision="786153248da71dae49c7c89d2f9e961b41e8cb9a" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/amlogic/libbt" path="hardware/amlogic/libbt" revision="0d3d2771a77cf6b0f9e765de1b548fd4c2cb96e0" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/lights" path="hardware/amlogic/lights" revision="a782a6a49bc287778ab33fd7e302c157725301fa" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/mali" path="hardware/amlogic/mali" revision="1321def61e04d24e7c7ef250c046bb3b2f7779e2" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/memtrack" path="hardware/amlogic/memtrack" revision="53c467984a3b66ec5fbb101432a4c83a7584e1c5" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/amlogic/nand" path="hardware/amlogic/nand" revision="096f9298b70176670a0a495d6431207ce845f6f2" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/amlogic/nand" path="hardware/amlogic/nand" revision="0cc3c7a75274158f92d29d2b770aeb94d87a67a3" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/pmu" path="hardware/amlogic/pmu" revision="97738d04cd4155f62a2a3a794a24c8a23a745d6e" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/power" path="hardware/amlogic/power" revision="02f31d9bdd32d45a65475988836918120fb2ebce" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/screen_source" path="hardware/amlogic/screen_source" revision="5c1b3d432baeabc6df04e89cd2554ea30d57441c" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/sensors" path="hardware/amlogic/sensors" revision="b963ffc206c8a1ec137410e7cea5265235c64ffc" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/amlogic/thermal" path="hardware/amlogic/thermal" revision="c039c6c56cded8b89de25a117113f1f3e258d1f7" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/amlogic/thermal" path="hardware/amlogic/thermal" revision="d3d430a6738e731962043a8dea52b2564e675a6f" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/amlogic/touch" path="hardware/amlogic/touch" revision="f432bdc3c2f4804f97dbfa77b7e92fcec6133880" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/amlogic/wifi" path="hardware/amlogic/wifi" revision="5c78e4cb8ecca097a412e269f4daf1b335271508" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/arm/gpu" path="hardware/arm/gpu" revision="7a84347aebfbbf89e444fe79b136bba49784e5e0" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/amlogic/wifi" path="hardware/amlogic/wifi" revision="9e8c9d9ed4fed5936c0253ea6f247676024a093a" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/arm/gpu" path="hardware/arm/gpu" revision="589fca7f6ce6a8856c39de3b2edb1abed40c6926" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e675e9cdcd57cba9146f76d2589d27ce593c0bc6" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/libhardware" path="hardware/libhardware" revision="fbb92e365dd01dfa4cc1d3fc63032ca86057b6dc" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="095c75a8afec1d0834e314a807d0cdf7e86fc34f" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/libhardware" path="hardware/libhardware" revision="66ed6fc5d325e6bd72bcae45cb9318ddf9b77315" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="1d11a8e2ce07fa7f17a360823f90a1cbd8339699" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/realtek/bluetooth" path="hardware/realtek/bluetooth" revision="a399b700829a98b42d102dc8590183018698ecd8" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/ril" path="hardware/ril" revision="2210a0276fa000ef7224f26b24f00cb34a372e8d" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/hardware/wifi/broadcom/drivers/ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="04e7d172eda162e0e4a7a9e0efc76ff1147f4b3d" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/hardware/wifi/broadcom/drivers/ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx" revision="a9d587b3990d20e7266193eeb076954828ee6622" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/wifi/broadcom/drivers/usi" path="hardware/wifi/broadcom/drivers/usi" revision="583b48637f6abfe13074075d7af734cfe0e4f185" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/wifi/realtek/drivers/8188eu" path="hardware/wifi/realtek/drivers/8188eu" revision="39fc9d97bcfe02c61723552bca3c00af9d43c199" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/hardware/wifi/realtek/drivers/8189es" path="hardware/wifi/realtek/drivers/8189es" revision="834d84162cdc588fe9b8854acacf1d14ec366d95" upstream="l-amlogic-gx"/>
@@ -331,20 +332,20 @@
   <project name="l-amlogic-gx/platform/libnativehelper" path="libnativehelper" revision="a75fb2a636ceafac9ddfb580af614e5ef0edf977" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/ndk" path="ndk" revision="e4b362d6b023e419d595938154c6093d1c6f0d9b" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/AppInstaller" path="vendor/amlogic/apps/AppInstaller" revision="ae549f5a0b98f446563fd6503cb078c80670bcf7" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/DLNA" path="vendor/amlogic/apps/DLNA" revision="04bf65647315ca3ab75e0fb4bd89602909e1c3b6" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/DLNA" path="vendor/amlogic/apps/DLNA" revision="e32b3b466e87c6dd5280e2f8ba5b62dc3b588f90" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="505953b79fa23e17dc1e7541bf3298452ccb0f89" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="b22cd9571a563a2f640de5ed1569e1260c783d46" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="ee66a991ac4cc65dff596d95de50e004b1aa6637" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="606d7f57a9f45b75ac7235e959b4f780bed7c52e" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="3aebbfd6c96bff40dd59fd7e3c00f6f7e51e97e4" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="01822d49b55be18236954fead86cdb507805daa3" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="5825f0269f697e82013dabd840cd2435a1bf97b3" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/NativeImagePlayer" path="vendor/amlogic/apps/NativeImagePlayer" revision="923f2b846cd9566e9f826f775abc0c63394b0fe7" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/OTAUpgrade2" path="vendor/amlogic/apps/OTAUpgrade2" revision="a9f31029abdea3b019eb41dcd60e7b382ad0a6d5" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/PPPoE" path="vendor/amlogic/apps/PPPoE" revision="21c958fb00ee329b666c7a640e3084456a2438c7" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/PPPoE" path="vendor/amlogic/apps/PPPoE" revision="9e0f7e2a6987e4733ec01705b4d28ac4274cec6b" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/amlogic/RemoteIME" path="vendor/amlogic/apps/RemoteIME" revision="9def86b0e88b8cf283ba618a023dc8ca50249ca4" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/SubTitle" path="vendor/amlogic/apps/SubTitle" revision="80417a1e093eb568a1490f6a799cf1788c27dfbe" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="b5338f6fd0f677dc6fcfab2547b8ab59059f4696" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/SubTitle" path="vendor/amlogic/apps/SubTitle" revision="dbe893a9911be5137fd969504bc7c3deac56afed" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/amlogic/VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="81964c196e37fac82caef5bde7d05184fe82d12c" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="53603f161a0332711ce8ae23bd237bc40880bfec" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="c6d24a4792c26ec11a6cc6e79f245ed77841aecd" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/Browser" path="packages/apps/Browser" revision="79d790a5b8d3f508aee50c24b5c35bebfaa888da" upstream="l-amlogic-gx"/>
@@ -389,7 +390,7 @@
   <project name="l-amlogic-gx/platform/packages/apps/Stk" path="packages/apps/Stk" revision="8f86843a3773a9eb03b4d4beabd2ce3c654f4113" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/Tag" path="packages/apps/Tag" revision="4aa14f03551fafee2b87eccbc4dafee04d46a9b8" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="1a161f759167dc8824ea40d3f661a69799b59e3b" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="6133f935bd55468d60f1bf63da4bd39b182ba4c8" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="29aaf66b69fd531809f07aa99a2fd5821132399b" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="d7917089078210e30e5136822e63f530c9e66268" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="fd726afabfb115a17c1b4dca8d2129ca3501f1f9" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/packages/experimental" path="packages/experimental" revision="b93c3115bf873d5b052a8a4e64720316257f49b6" upstream="l-amlogic-gx"/>
@@ -438,7 +439,7 @@
   <project name="l-amlogic-gx/platform/prebuilts/sdk" path="prebuilts/sdk" revision="933020abbd02ddea9d701b6f79f392092b5ba3bf" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/prebuilts/tools" path="prebuilts/tools" revision="5b2be74a88e09e758cb86d18deae9cd29006009a" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/sdk" path="sdk" revision="7859e2e738542baf96c15e6c8b50bbdb410131b0" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/platform/system/core" path="system/core" revision="6997b7b3622c329281a37819f6849fb73bb87935" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/platform/system/core" path="system/core" revision="476f7a57757a8f1db5c038a00f2b92723cacfc64" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/system/extras" path="system/extras" revision="05f04134b831ea6a45f64eec45525af0bb9db4d9" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/system/keymaster" path="system/keymaster" revision="224da076426f2ab3124f1bd2f6171f43a09876bc" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/system/media" path="system/media" revision="2d6976f08018613a6206ba74da3142ca4b85bd2d" upstream="l-amlogic-gx"/>
@@ -447,12 +448,12 @@
   <project name="l-amlogic-gx/platform/system/vold" path="system/vold" revision="75ed85336c07d2d90b64211d84ffd17af98cd3ef" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/uboot" path="uboot" revision="8a5cdbf36a679b877fe9d92e1e3901966b5440ac" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="57ac878bdc1709f101923b33980fb8df2356e06c" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="2d754370e37179253b3094610ea55775aad27326" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/uboot" path="uboot" revision="4940332cf507d8506835f9b7d00453e29c1ef4d5" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="ca6722d88997f796f785256620134a680052ce0b" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="d3ff1668d989494b5832937c5da03ce9122fb843" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="6af821c2644bc959034d1132b344e907c6f322a0" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="l-amlogic-gx"/>
-  <project name="l-amlogic-gx/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="2336460ea452b96f9310c32f61c5cd611cc354a1" upstream="l-amlogic-gx"/>
+  <project name="l-amlogic-gx/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="830c57bf6d98e338b3853d50886d2e3e8bc260ec" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="l-amlogic-gx"/>
   <project name="l-amlogic-gx/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="de9a27ddc78ea45d194e6a867ccafc35393ac293" upstream="l-amlogic-gx"/>
 </manifest>
