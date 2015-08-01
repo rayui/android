@@ -214,6 +214,7 @@
   <project path="hardware/amlogic/wifi" name="l-amlogic-gx/platform/hardware/amlogic/wifi"  />
   <project path="hardware/amlogic/thermal" name="l-amlogic-gx/platform/hardware/amlogic/thermal" />
   <project path="hardware/amlogic/touch" name="l-amlogic-gx/platform/hardware/amlogic/touch"  />
+  <project path="hardware/amlogic/usbctrl" name="l-amlogic-gx/platform/hardware/amlogic/usbctrl"  />  
   <project path="hardware/amlogic/sensors" name="l-amlogic-gx/platform/hardware/amlogic/sensors"  />
   <project path="hardware/amlogic/screen_source" name="l-amlogic-gx/platform/hardware/amlogic/screen_source"  />
   <project path="hardware/arm/gpu" name="l-amlogic-gx/platform/hardware/arm/gpu"  />
