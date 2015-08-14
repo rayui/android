@@ -3,8 +3,8 @@
 
   <remote  name="origin"
            fetch=".." />
-  <default remote="openlinux"
-           revision="refs/head/l-amlogic-gx"
+  <default remote="origin"
+           revision="refs/heads/s905_5.1.1_dev_master"
            sync-j="1" />
 
   <project path="build" name="platform/build"  >
