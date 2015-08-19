@@ -7,7 +7,7 @@
   <project name="l-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="l-amlogic"/>
   <project name="l-amlogic/amlogic/tools/system_monitor" path="vendor/amlogic/apps/system_monitor" revision="86e029906f97345b3cadc27c3f50f57373850ef2" upstream="l-amlogic"/>
   <project name="l-amlogic/bagder/curl" path="external/curl" revision="667b3388e5ef5aee7130b7caaaffe34c23f37927" upstream="l-amlogic"/>
-  <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="69a9879a11e7ca624c6970fea6f68fb1a6a89ac4" upstream="openlinux_l-amlogic_20150514_base"/>
+  <project name="l-amlogic/device/amlogic" path="device/amlogic" revision="4c6b5a0fb2975acf9d3e42ae3a2da995449e76d7" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/kernel/common" path="common" revision="0c943e252bd0a7ae68ae24ff3147d66d451328ef" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/libusb" path="external/libusb" revision="c1e5b1f8503548675dce809c5200813f76624a19" upstream="l-amlogic"/>
   <project name="l-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="a7a372954af21690210691d368c16233b33e88f8" upstream="l-amlogic"/>
@@ -455,4 +455,5 @@
   <project name="l-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="c2392da938788a1ac3712f904835935408cc49f2" upstream="openlinux_l-amlogic_20150514_base"/>
   <project name="l-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="l-amlogic"/>
   <project name="l-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="de9a27ddc78ea45d194e6a867ccafc35393ac293" upstream="l-amlogic"/>
+  <project name="l-amlogic/vendor/widevine" path="vendor/widevine" revision="e2e415f003a6de6945c4dfe2c60169236f8f4a14" upstream="openlinux_l-amlogic_20150514_base"/>
 </manifest>
