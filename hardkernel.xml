@@ -238,11 +238,9 @@
  <project path="vendor/amlogic/apps/system_monitor" name="amlogic/tools/system_monitor" />
  <project path="vendor/amlogic/external/alsa-lib" name="platform/external/alsa-lib" />
  <project path="vendor/amlogic/external/libtiff" name="platform/external/libtiff" />
- <project path="vendor/amlogic/external/pppoe" name="platform/external/pppoe" />
  <project path="vendor/amlogic/frameworks" name="vendor/amlogic/frameworks" />
  <project path="vendor/amlogic/frameworks/av" name="vendor/amlogic/frameworks/av" />
  <project path="vendor/amlogic/frameworks/av/LibPlayer" name="platform/packages/amlogic/LibPlayer" />
- <project path="vendor/amlogic/frameworks/pppoe" name="vendor/amlogic/frameworks/pppoe" />
  <project path="vendor/amlogic/prebuilt" name="vendor/amlogic/prebuilt" />
  <project path="vendor/amlogic/system" name="vendor/amlogic/system" />
  <project path="vendor/amlogic/system/modem" name="vendor/amlogic/modem" />
