@@ -200,8 +200,8 @@
  <project path="device/hardkernel/common" name="android_device_hardkernel_common" />
  <project path="device/hardkernel/odroidc2" name="android_device_hardkernel_odroidc2" />
  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" />
- <project path="bootable/uboot" name="uboot" revision="odroidc2_v2015.01" />
- <project path="kernel" name="kernel/common" revision="refs/heads/odroidc2-3.14.y-android" />
+ <project path="bootable/uboot" name="uboot" />
+ <project path="kernel" name="kernel/common" />
  <project path="external/busybox" name="android_external_busybox" />
  <project path="external/curl" name="bagder/curl" />
  <project path="external/ffmpeg" name="platform/external/ffmpeg" />
