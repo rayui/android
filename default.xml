@@ -4,7 +4,7 @@
   <remote  name="origin"
            fetch=".." />
   <default remote="origin"
-           revision="refs/heads/s905_5.1.1_dev_master"
+           revision="refs/heads/odroidc2_bsp_20151031"
            sync-j="1" />
 
   <project path="build" name="platform/build"  >
