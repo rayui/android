@@ -329,7 +329,6 @@
   <project path="hardware/amlogic/hdmi_cec" name="android_hardware_amlogic_hdmi_cec" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/amlogic/lights" name="android_hardware_amlogic_lights" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="hardware/amlogic/libbt" name="android_hardware_amlogic_libbt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/amlogic/mali" name="android_hardware_amlogic_mali" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/amlogic/memtrack" name="android_hardware_amlogic_memtrack" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/amlogic/pmu" name="android_hardware_amlogic_pmu" remote="origin" revision="refs/heads/s905_5.1.1_master" />
@@ -344,6 +343,7 @@
   <project path="hardware/backports" name="android_hardware_backports" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" groups="amlogic" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/gps-glonass-android-driver" name="gps-glonass-android-driver" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
