@@ -477,5 +477,5 @@
   <project path="tools/swt" name="m-amlogic/platform/tools/swt" />
   <project path="tools/tradefederation" name="m-amlogic/platform/tools/tradefederation" />
 
-  <include name="m-amlogic/amlogic.xml" />
+  <include name="amlogic.xml" />
 </manifest>
