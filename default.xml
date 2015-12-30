@@ -353,7 +353,7 @@
   <project path="packages/apps/CarrierConfig" name="m-amlogic/platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CellBroadcastReceiver" name="m-amlogic/platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="m-amlogic/platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="m-amlogic/platform/packages/apps/Contacts" >
+  <project path="packages/apps/Contacts" name="m-amlogic/platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="m-amlogic/platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="m-amlogic/platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="m-amlogic/platform/packages/apps/Dialer" />
