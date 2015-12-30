@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove unneeded projects -->
+  <remove-project name="m-amlogic/device/asus/deb" />
+  <remove-project name="m-amlogic/device/asus/flo" />
+  <remove-project name="m-amlogic/device/asus/flo-kernel" />
+  <remove-project name="m-amlogic/device/asus/fugu" />
+  <remove-project name="m-amlogic/device/asus/fugu-kernel" />
+  <remove-project name="m-amlogic/device/common" />
+  <remove-project name="m-amlogic/device/generic/arm64" />
+  <remove-project name="m-amlogic/device/generic/armv7-a-neon" />
+  <remove-project name="m-amlogic/device/generic/common" />
+  <remove-project name="m-amlogic/device/generic/goldfish" />
+  <remove-project name="m-amlogic/device/generic/mips" />
+  <remove-project name="m-amlogic/device/generic/mini-emulator-arm64" />
+  <remove-project name="m-amlogic/device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="m-amlogic/device/generic/mini-emulator-mips" />
+  <remove-project name="m-amlogic/device/generic/mini-emulator-x86" />
+  <remove-project name="m-amlogic/device/generic/mini-emulator-x86_64" />
+  <remove-project name="m-amlogic/device/generic/qemu" />
+  <remove-project name="m-amlogic/device/generic/x86" />
+  <remove-project name="m-amlogic/device/generic/x86_64" />
+  <remove-project name="m-amlogic/device/google/accessory/arduino" />
+  <remove-project name="m-amlogic/device/google/accessory/demokit" />
+  <remove-project name="m-amlogic/device/google/atv" />
+  <remove-project name="m-amlogic/device/htc/flounder" />
+  <remove-project name="m-amlogic/device/htc/flounder-kernel" />
+  <remove-project name="m-amlogic/device/lge/hammerhead" />
+  <remove-project name="m-amlogic/device/lge/hammerhead-kernel" />
+  <remove-project name="m-amlogic/device/moto/shamu" />
+  <remove-project name="m-amlogic/device/moto/shamu-kernel" />
+  <remove-project name="m-amlogic/device/sample" />
+  <remove-project name="m-amlogic/platform/hardware/akm" />
+  <remove-project name="m-amlogic/platform/hardware/broadcom/libbt" />
+  <remove-project name="m-amlogic/platform/hardware/intel/audio_media" />
+  <remove-project name="m-amlogic/platform/hardware/intel/bootstub" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/bd_prov" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/libmix" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/libva" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/libwsbm" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/omx-components" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/utils" />
+  <remove-project name="m-amlogic/platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="m-amlogic/platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="m-amlogic/platform/hardware/intel/img/psb_headers" />
+  <remove-project name="m-amlogic/platform/hardware/intel/img/psb_video" />
+  <remove-project name="m-amlogic/platform/hardware/invensense" />
+  <remove-project name="m-amlogic/platform/hardware/nvidia/audio" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/audio" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/bt" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/display" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/gps" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/keymaster" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/media" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8960" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8x26" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8x27" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8x74" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8x84" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/power" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/sensors" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/wlan" />
+  <remove-project name="m-amlogic/platform/hardware/ti/omap3" />
+  <remove-project name="m-amlogic/platform/hardware/ti/omap4-aah" />
+  <remove-project name="m-amlogic/platform/hardware/ti/omap4xxx" />
+  <remove-project name="m-amlogic/platform/prebuilts/android-emulator" />
+  <remove-project name="m-amlogic/platform/prebuilts/devtools" />
+  <remove-project name="m-amlogic/platform/prebuilts/eclipse" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="m-amlogic/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="m-amlogic/platform/prebuilts/gradle-plugin" />
+  <remove-project name="m-amlogic/platform/prebuilts/libs/libedit" />
+  <remove-project name="m-amlogic/platform/prebuilts/maven_repo/android" />
+  <remove-project name="m-amlogic/platform/prebuilts/python/darwin-x86/2.7.5" />
+
+  <!-- change projects -->
+  <remove-project name="m-amlogic/platform/build" />
+  <project path="build" name="m-amlogic/platform/build" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <remove-project name="m-amlogic/platform/bionic" />
+  <project path="bionic" name="m-amlogic/platform/bionic" />
+  <remove-project name="m-amlogic/platform/bootable/recovery" />
+  <project path="bootable/recovery" name="m-amlogic/platform/bootable/recovery" />
+  <!--
+  <remove-project name="m-amlogic/platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="m-amlogic/platform/external/bluetooth/bluedroid" groups="pdk" revision="refs/heads/l-amlogic" />
+  <remove-project name="m-amlogic/platform/external/chromium_org" />
+  <project path="external/chromium_org" name="m-amlogic/platform/external/chromium_org" revision="refs/heads/l-amlogic" />
+  <remove-project name="m-amlogic/platform/external/chromium_org/third_party/WebKit" />
+  <project path="external/chromium_org/third_party/WebKit" name="m-amlogic/platform/external/chromium_org/third_party/WebKit" revision="refs/heads/l-amlogic" />
+  -->
+  <remove-project name="m-amlogic/platform/external/conscrypt" />
+  <project path="external/conscrypt" name="m-amlogic/platform/external/conscrypt" />
+  <remove-project name="m-amlogic/platform/external/dhcpcd" />
+  <project path="external/dhcpcd" name="m-amlogic/platform/external/dhcpcd" />
+  <remove-project name="m-amlogic/platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="m-amlogic/platform/external/e2fsprogs" />
+  <remove-project name="m-amlogic/platform/external/icu" />
+  <project path="external/icu" name="m-amlogic/platform/external/icu" />
+  <remove-project name="m-amlogic/platform/external/jpeg" />
+  <project path="external/jpeg" name="m-amlogic/platform/external/jpeg" />
+  <remove-project name="m-amlogic/platform/external/libyuv" />
+  <project path="external/libyuv" name="m-amlogic/platform/external/libyuv" />
+  <remove-project path="external/libpng" name="m-amlogic/platform/external/libpng" />
+  <project path="external/libpng" name="m-amlogic/platform/external/libpng" />
+  <remove-project name="m-amlogic/platform/external/mksh" />
+  <project path="external/mksh" name="m-amlogic/platform/external/mksh" />
+  <remove-project name="m-amlogic/platform/external/okhttp" />
+  <project path="external/okhttp" name="m-amlogic/platform/external/okhttp" />
+  <remove-project name="m-amlogic/platform/external/ppp" />
+  <project path="external/ppp" name="m-amlogic/platform/external/ppp" />
+  <remove-project name="m-amlogic/platform/external/sqlite" />
+  <project path="external/sqlite" name="m-amlogic/platform/external/sqlite" />
+  <remove-project name="m-amlogic/platform/external/skia" />
+  <project path="external/skia" name="m-amlogic/platform/external/skia" />
+  <remove-project name="m-amlogic/platform/external/sonivox" />
+  <project path="external/sonivox" name="m-amlogic/platform/external/sonivox" />
+  <remove-project name="m-amlogic/platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="m-amlogic/platform/external/wpa_supplicant_8" />
+  <remove-project name="m-amlogic/platform/external/zlib" />
+  <project path="external/zlib" name="m-amlogic/platform/external/zlib" />
+  <remove-project name="m-amlogic/platform/frameworks/av" />
+  <project path="frameworks/av" name="m-amlogic/platform/frameworks/av" />
+  <!--
+  <remove-project name="m-amlogic/platform/frameworks/base" />
+  <project path="frameworks/base" name="m-amlogic/platform/frameworks/base" groups="pdk-cw-fs" />
+  -->
+  <remove-project name="m-amlogic/platform/frameworks/native" />
+  <project path="frameworks/native" name="m-amlogic/platform/frameworks/native" />
+  <!--
+  <remove-project name="m-amlogic/platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="m-amlogic/platform/frameworks/opt/net/wifi" groups="pdk" revision="refs/heads/m-amlogic" />
+  <remove-project name="m-amlogic/platform/frameworks/opt/net/ethernet" />
+  <project path="frameworks/opt/net/ethernet" name="m-amlogic/platform/frameworks/opt/net/ethernet" revision="refs/heads/m-amlogic" />
+  <remove-project name="m-amlogic/platform/frameworks/webview" />
+  <project path="frameworks/webview" name="m-amlogic/platform/frameworks/webview" groups="pdk-cw-fs" revision="refs/heads/m-amlogic" />
+  <remove-project name="m-amlogic/platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="m-amlogic/platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="refs/heads/m-amlogic" />
+  -->
+  <remove-project name="m-amlogic/platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="m-amlogic/platform/hardware/libhardware" />
+  <remove-project name="m-amlogic/platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="m-amlogic/platform/hardware/libhardware_legacy" />
+  <remove-project name="m-amlogic/platform/libcore" />
+  <project path="libcore" name="m-amlogic/platform/libcore" />
+  <remove-project name="m-amlogic/platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="m-amlogic/platform/packages/apps/Bluetooth" />
+  <remove-project name="m-amlogic/platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="m-amlogic/platform/packages/apps/Browser" />
+  <remove-project name="m-amlogic/platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="m-amlogic/platform/packages/apps/Camera2" />
+  <remove-project name="m-amlogic/platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="m-amlogic/platform/packages/apps/Calculator" />
+  <remove-project name="m-amlogic/platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="m-amlogic/platform/packages/apps/Gallery2" />
+  <remove-project name="m-amlogic/platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="m-amlogic/platform/packages/apps/Launcher2" />
+  <remove-project name="m-amlogic/platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="m-amlogic/platform/packages/apps/Music" />
+  <remove-project name="m-amlogic/platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="m-amlogic/platform/packages/apps/PackageInstaller" />
+  <remove-project name="m-amlogic/platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="m-amlogic/platform/packages/apps/Contacts" />
+  <remove-project name="m-amlogic/platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="m-amlogic/platform/packages/apps/Settings" />
+  <remove-project name="m-amlogic/platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="m-amlogic/platform/packages/apps/Stk" />
+  <remove-project name="m-amlogic/platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="m-amlogic/platform/packages/inputmethods/LatinIME" />
+
+  <remove-project name="m-amlogic/platform/packages/apps/TvSettings" />
+  <project path="packages/apps/TvSettings" name="m-amlogic/platform/packages/apps/TvSettings"  />
+  <remove-project name="m-amlogic/platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="m-amlogic/platform/packages/providers/MediaProvider" />
+  <remove-project name="m-amlogic/platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="m-amlogic/platform/packages/services/Telephony" />
+  <remove-project name="m-amlogic/platform/system/core" />
+  <project path="system/core" name="m-amlogic/platform/system/core" />
+  <remove-project name="m-amlogic/platform/system/extras" />
+  <project path="system/extras" name="m-amlogic/platform/system/extras" />
+  <remove-project name="m-amlogic/platform/system/vold" />
+  <project path="system/vold" name="m-amlogic/platform/system/vold" />
+  <remove-project name="m-amlogic/platform/system/media" />
+  <project path="system/media" name="m-amlogic/platform/system/media" />
+  <remove-project name="m-amlogic/platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="m-amlogic/platform/frameworks/opt/telephony" />
+  <!--
+  <remove-project name="m-amlogic/platform/external/libusb" />
+  <project path="external/libusb" name="m-amlogic/libusb" groups="pdk" revision="kk-amlogic" />
+  -->
+
+  <!-- add projects -->
+  <project path="device/amlogic" name="m-amlogic/device/amlogic" />
+  <project path="uboot" name="m-amlogic/uboot" />
+  <project path="common" name="m-amlogic/kernel/common" />
+  <project path="external/busybox" name="m-amlogic/platform/external/busybox" />
+  <project path="external/curl" name="m-amlogic/bagder/curl" />
+  <project path="external/ffmpeg" name="m-amlogic/platform/external/ffmpeg" />
+  <project path="external/exfat-fuse" name="m-amlogic/platform/external/exfat-fuse" />
+  <project path="external/ntfs-3g" name="m-amlogic/platform/external/ntfs-3g" />
+  <project path="hardware/amlogic/audio" name="m-amlogic/platform/hardware/amlogic/audio" />
+  <project path="hardware/amlogic/consumerir" name="m-amlogic/platform/hardware/amlogic/consumerir" />
+  <project path="hardware/amlogic/camera" name="m-amlogic/platform/hardware/amlogic/camera" />
+  <project path="hardware/amlogic/gralloc" name="m-amlogic/platform/hardware/amlogic/gralloc" />
+  <project path="hardware/amlogic/hdmi_cec" name="m-amlogic/platform/hardware/amlogic/hdmi_cec" />
+  <project path="hardware/amlogic/hwcomposer" name="m-amlogic/platform/hardware/amlogic/hwcomposer" />
+  <project path="hardware/amlogic/libbt" name="m-amlogic/platform/hardware/amlogic/libbt" />
+  <project path="hardware/amlogic/lights" name="m-amlogic/platform/hardware/amlogic/lights" />
+  <project path="hardware/amlogic/mali" name="m-amlogic/platform/hardware/amlogic/mali" />
+  <project path="hardware/amlogic/memtrack" name="m-amlogic/platform/hardware/amlogic/memtrack" />
+  <project path="hardware/amlogic/nand" name="m-amlogic/platform/hardware/amlogic/nand" />
+  <project path="hardware/amlogic/pmu" name="m-amlogic/platform/hardware/amlogic/pmu" />
+  <project path="hardware/amlogic/power" name="m-amlogic/platform/hardware/amlogic/power" />
+  <project path="hardware/amlogic/wifi" name="m-amlogic/platform/hardware/amlogic/wifi" />
+  <project path="hardware/amlogic/thermal" name="m-amlogic/platform/hardware/amlogic/thermal" />
+  <project path="hardware/amlogic/touch" name="m-amlogic/platform/hardware/amlogic/touch" />
+  <project path="hardware/amlogic/sensors" name="m-amlogic/platform/hardware/amlogic/sensors" />
+  <project path="hardware/amlogic/screen_source" name="m-amlogic/platform/hardware/amlogic/screen_source" />
+  <project path="hardware/amlogic/usbctrl" name="m-amlogic/platform/hardware/amlogic/usbctrl" />
+  <project path="hardware/arm/gpu" name="m-amlogic/platform/hardware/arm/gpu" />
+  <project path="hardware/tvin" name="m-amlogic/linux/amlogic/tvin" />
+  <project path="hardware/wifi/realtek/drivers/8188eu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" />
+  <project path="hardware/wifi/realtek/drivers/8192cu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" />
+  <project path="hardware/wifi/realtek/drivers/8192du" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192du" />
+  <project path="hardware/wifi/realtek/drivers/8192eu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" />
+  <project path="hardware/wifi/realtek/drivers/8189es" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8189es" />
+  <project path="hardware/wifi/realtek/drivers/8189ftv" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8189ftv" />
+  <project path="hardware/wifi/realtek/drivers/8723bs" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8723bs" />
+  <project path="hardware/wifi/realtek/drivers/8723au" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8723au" />
+  <project path="hardware/wifi/realtek/drivers/8811au" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8811au" />
+  <project path="hardware/wifi/realtek/drivers/8812au" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8812au" />
+  <project path="hardware/wifi/realtek/drivers/8723bu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" />
+  <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" />
+  <project path="hardware/wifi/broadcom/drivers/usi" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/usi" />
+  <project path="hardware/realtek/bluetooth" name="m-amlogic/platform/hardware/realtek/bluetooth" />
+  <project path="vendor/amlogic/apps/MboxLauncher2" name="m-amlogic/platform/packages/amlogic/MboxLauncher2" />
+  <project path="vendor/amlogic/apps/PPPoE" name="m-amlogic/platform/packages/amlogic/PPPoE" />
+  <project path="vendor/amlogic/apps/MboxSettings" name="m-amlogic/platform/packages/amlogic/MboxSettings" />
+  <project path="vendor/amlogic/apps/Miracast" name="m-amlogic/platform/packages/amlogic/Miracast" />
+  <project path="vendor/amlogic/apps/FileBrowser" name="m-amlogic/platform/packages/amlogic/FileBrowser" />
+  <project path="vendor/amlogic/apps/VideoPlayer" name="m-amlogic/platform/packages/amlogic/VideoPlayer" />
+  <project path="vendor/amlogic/apps/SubTitle" name="m-amlogic/platform/packages/amlogic/SubTitle" />
+  <project path="vendor/amlogic/apps/AppInstaller" name="m-amlogic/platform/packages/amlogic/AppInstaller" />
+  <project path="vendor/amlogic/apps/NativeImagePlayer" name="m-amlogic/platform/packages/amlogic/NativeImagePlayer" />
+  <project path="vendor/amlogic/apps/RemoteIME" name="m-amlogic/platform/packages/amlogic/RemoteIME" />
+  <project path="vendor/amlogic/apps/OTAUpgrade2" name="m-amlogic/platform/packages/amlogic/OTAUpgrade2" />
+  <project path="vendor/amlogic/apps/DLNA" name="m-amlogic/platform/packages/amlogic/DLNA" />
+  <project path="vendor/amlogic/apps/HDMI_in" name="m-amlogic/platform/packages/amlogic/HDMI_in" />
+  <project path="vendor/amlogic/apps/HdmiSwitch" name="m-amlogic/platform/packages/amlogic/HdmiSwitch" />
+  <project path="vendor/amlogic/apps/IrBlaster" name="m-amlogic/amlogic/tools/ir_blaster" />
+  <project path="vendor/amlogic/apps/Dig" name="m-amlogic/platform/packages/amlogic/Dig" />
+  <project path="vendor/amlogic/external/pppoe" name="m-amlogic/platform/external/pppoe" />
+  <project path="vendor/amlogic/external/libtiff" name="m-amlogic/vendor/amlogic/external/libtiff" />
+  <project path="vendor/amlogic/frameworks" name="m-amlogic/vendor/amlogic/frameworks" />
+  <project path="vendor/amlogic/frameworks/av" name="m-amlogic/vendor/amlogic/frameworks/av" />
+  <project path="vendor/amlogic/frameworks/pppoe" name="m-amlogic/vendor/amlogic/frameworks/pppoe" />
+  <project path="vendor/amlogic/frameworks/av/LibPlayer" name="m-amlogic/platform/packages/amlogic/LibPlayer" />
+  <project path="vendor/amlogic/prebuilt" name="m-amlogic/vendor/amlogic/prebuilt" />
+  <project path="vendor/amlogic/system" name="m-amlogic/vendor/amlogic/system" />
+  <project path="vendor/amlogic/system/modem" name="m-amlogic/vendor/amlogic/modem" />
+  <project path="vendor/amlogic/tools" name="m-amlogic/vendor/amlogic/tools" />
+  <project path="vendor/amlogic/external/alsa-lib" name="m-amlogic/platform/external/alsa-lib" />
+
+  <!-- END add projects -->
+
+  <!-- start dvb projects -->
+  <project path="external/libzvbi" name="m-amlogic/platform/external/libzvbi" />
+  <project path="vendor/amlogic/dvb" name="m-amlogic/vendor/amlogic/dvb" />
+  <project path="vendor/amlogic/apps/TvMiddleware" name="m-amlogic/platform/packages/amlogic/TvMiddleware" />
+  <project path="vendor/amlogic/apps/DTVPlayer" name="m-amlogic/platform/packages/amlogic/DTVPlayer" />
+  <!-- END dvb projects -->
+
+</manifest>
