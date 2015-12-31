@@ -7,7 +7,7 @@
            remote="openlinux"
            dest-branch="m-amlogic"
            sync-c="true"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="m-amlogic/platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -133,7 +133,6 @@
   <project path="external/jemalloc" name="m-amlogic/platform/external/jemalloc" />
   <project path="external/jetty" name="m-amlogic/platform/external/jetty" />
   <project path="external/jhead" name="m-amlogic/platform/external/jhead" />
-  <project path="external/jline" name="m-amlogic/platform/external/jline" />
   <project path="external/jmdns" name="m-amlogic/platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="m-amlogic/platform/external/jmonkeyengine" />
   <project path="external/jpeg" name="m-amlogic/platform/external/jpeg" />
@@ -359,7 +358,7 @@
   <project path="packages/apps/Dialer" name="m-amlogic/platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="m-amlogic/platform/packages/apps/Email" />
   <project path="packages/apps/ExactCalculator" name="m-amlogic/platform/packages/apps/ExactCalculator" />
-  <project path="packages/apps/Exchange" name="m-amlogic/platform/packages/apps/Exchange" >
+  <project path="packages/apps/Exchange" name="m-amlogic/platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="m-amlogic/platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="m-amlogic/platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="m-amlogic/platform/packages/apps/Gallery2" />
@@ -425,8 +424,6 @@
   <project path="prebuilts/clang/linux-x86/host/3.6" name="m-amlogic/platform/prebuilts/clang/linux-x86/host/3.6" />
   <project path="prebuilts/devtools" name="m-amlogic/platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="m-amlogic/platform/prebuilts/eclipse" />
-  <project path="prebuilts/eclipse-build-deps" name="m-amlogic/platform/prebuilts/eclipse-build-deps" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="m-amlogic/platform/prebuilts/eclipse-build-deps-sources" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="m-amlogic/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="m-amlogic/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="m-amlogic/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -449,7 +446,7 @@
   <project path="prebuilts/ndk" name="m-amlogic/platform/prebuilts/ndk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="m-amlogic/platform/prebuilts/python/darwin-x86/2.7.5" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="m-amlogic/platform/prebuilts/python/linux-x86/2.7.5" />
-  <project path="prebuilts/qemu-kernel" name="m-amlogic/platform/prebuilts/qemu-kernel" />
+  <project path="prebuilts/qemu-kernel" name="m-amlogic/platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="m-amlogic/platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="m-amlogic/platform/prebuilts/tools" />
   <project path="sdk" name="m-amlogic/platform/sdk" />
@@ -462,20 +459,8 @@
   <project path="system/netd" name="m-amlogic/platform/system/netd" />
   <project path="system/security" name="m-amlogic/platform/system/security" />
   <project path="system/vold" name="m-amlogic/platform/system/vold" />
-  <project path="tools/adt/eclipse" name="m-amlogic/platform/tools/adt/eclipse" />
-  <project path="tools/adt/idea" name="m-amlogic/platform/tools/adt/idea" />
-  <project path="tools/base" name="m-amlogic/platform/tools/base" />
-  <project path="tools/build" name="m-amlogic/platform/tools/build" />
-  <project path="tools/emulator" name="m-amlogic/platform/tools/emulator" />
   <project path="tools/external/fat32lib" name="m-amlogic/platform/tools/external/fat32lib" />
   <project path="tools/external/gradle" name="m-amlogic/platform/tools/external/gradle" />
-  <project path="tools/idea" name="m-amlogic/platform/tools/idea" />
-  <project path="tools/loganalysis" name="m-amlogic/platform/tools/loganalysis" />
-  <project path="tools/motodev" name="m-amlogic/platform/tools/motodev" />
-  <project path="tools/studio/cloud" name="m-amlogic/platform/tools/studio/cloud" />
-  <project path="tools/studio/translation" name="m-amlogic/platform/tools/studio/translation" />
-  <project path="tools/swt" name="m-amlogic/platform/tools/swt" />
-  <project path="tools/tradefederation" name="m-amlogic/platform/tools/tradefederation" />
-
-  <include name="amlogic.xml" />
+ 
+   <include name="amlogic.xml" />
 </manifest>
