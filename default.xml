@@ -343,7 +343,7 @@
   <project path="hardware/backports" name="android_hardware_backports" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" groups="amlogic" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/gps-glonass-android-driver" name="gps-glonass-android-driver" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -389,6 +389,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
