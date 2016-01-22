@@ -344,7 +344,7 @@
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" groups="amlogic" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="hardware/hardkernel/gps-glonass-android-driver" name="gps-glonass-android-driver" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />

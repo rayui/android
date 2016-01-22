@@ -246,7 +246,7 @@
  <project path="vendor/amlogic/prebuilt" name="vendor/amlogic/prebuilt" />
  <project path="vendor/amlogic/system" name="vendor/amlogic/system" />
  <project path="vendor/amlogic/system/modem" name="vendor/amlogic/modem" />
- <project path="hardware/hardkernel/gps-glonass-android-driver" name="gps-glonass-android-driver" />
+ <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" />
 
 <!--
  <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" />
