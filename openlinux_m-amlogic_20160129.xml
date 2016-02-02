@@ -452,5 +452,5 @@
   <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="1b24ae372fcbf6b5aa47abe0f6c1b4f44fda6790" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="4f745cc9e67f0fecd1e2f9b54706f5ef373f8933" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="2ae6b693e3c16aae6b94ba36c8e44ac72fc4f481" upstream="m-amlogic"/>
+  <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="092f0ea619454ec80ee26d3f00dd780a2fa861f7" upstream="m-amlogic"/>
 </manifest>
