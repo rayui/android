@@ -280,4 +280,9 @@
   <project path="vendor/amlogic/apps/DTVPlayer" name="m-amlogic/platform/packages/amlogic/DTVPlayer" />
   <!-- END dvb projects -->
 
+  <!-- start TV projects -->
+  <project path="vendor/amlogic/apps/TvLibRelease" name="m-amlogic/platform/packages/amlogic/TvLibRelease" />
+  <project path="vendor/amlogic/apps/TvInput" name="m-amlogic/platform/packages/amlogic/TvInput" />
+  <project path="external/libaudioeffect" name="m-amlogic/platform/external/libaudioeffect" />
+  <!-- end TV projects -->
 </manifest>
