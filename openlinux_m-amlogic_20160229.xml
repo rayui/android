@@ -239,7 +239,7 @@
   <project name="m-amlogic/platform/external/zlib" path="external/zlib" revision="0533d901fbe81529f5bf3d6ef97084ef2635d025" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/zxing" path="external/zxing" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/frameworks/av" path="frameworks/av" revision="e8e88b5b1edf343782c371d351344f8694265009" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/frameworks/av" path="frameworks/av" revision="db1b019005e5b1814f38b73d659a44033c9eda59" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/frameworks/base" path="frameworks/base" revision="268bbc87f91d7a1ef2ed316ae467ac2dd64c16b2" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21" upstream="m-amlogic"/>
@@ -277,7 +277,7 @@
   <project name="m-amlogic/platform/frameworks/webview" path="frameworks/webview" revision="32aec2d4550b136bffb4bbba6e3f4efa388d3534" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="84bbadf848f606ff28273baf26fc246cf967059a" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/audio" path="hardware/amlogic/audio" revision="eb08626305f5db7042c751268ccffc4d75522adb" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="8f957326f18a2d4aa1923fbbb9621cf0d158eeb3" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="db4c7b9502ee2ae138a916de6f967074dc1829c8" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/consumerir" path="hardware/amlogic/consumerir" revision="d690fc2b76539edc73f5e1715c3bf1ef75796c08" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" revision="581141c3226d754aad94e584ab090d721dd47cc5" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="f981b1d98eb4c3cbc9cd453175de4a2862c5c189" upstream="m-amlogic"/>
