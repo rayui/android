@@ -201,6 +201,7 @@
   <!-- add projects -->
   <project path="device/amlogic" name="m-amlogic/device/amlogic" />
   <project path="uboot" name="m-amlogic/uboot" />
+  <project path="fbc3-release" name="m-amlogic/fbc3-release" />
   <project path="common" name="m-amlogic/kernel/common" />
   <project path="external/busybox" name="m-amlogic/platform/external/busybox" />
   <project path="external/curl" name="m-amlogic/bagder/curl" />
