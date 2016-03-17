@@ -446,6 +446,7 @@
   <project name="m-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" upstream="m-amlogic"/>
   <project name="m-amlogic/uboot" path="uboot" revision="6469b0e1842603ba4ec60fc6d03f7de21eec46fe" upstream="m-amlogic"/>
+  <project name="m-amlogic/fbc3-release" path="fbc3-release" revision="dc6f3260fc8cef86455687e62402042bf02850c3" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/dvb" path="vendor/amlogic/dvb" revision="3958a9d597893279b4bfcbd0f874fb0e9f36014c" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="09330807806e6d698078733e1c7c5d081df967d6" upstream="m-amlogic"/>
