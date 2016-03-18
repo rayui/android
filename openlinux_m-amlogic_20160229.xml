@@ -6,13 +6,13 @@
   
   <project name="m-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="m-amlogic"/>
   <project name="m-amlogic/bagder/curl" path="external/curl" revision="df3141eba55bc18ca8b0bf7a1078530bbede94bf" upstream="m-amlogic"/>
-  <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="1e1beac09607a83a5f452f046e999e00d9b52e46" upstream="m-amlogic"/>
+  <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="a7f2dbf5233f0af66f07826e683ecbe15fae83f1" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/kernel/common" path="common" revision="62505b9acfaeadab7d5066047ffa4f3a8ac204f7" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="8c65191d4585a66f3b193e3761996077199bb22e" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/art" path="art" revision="d8e28505f0be821475c7b18a416aa4f1a9e2871d" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/bionic" path="bionic" revision="1829ca386961f15bc189afdfc02cdf132b0b10dd" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/bootable/recovery" path="bootable/recovery" revision="97c72fd2d277b7950441fb05c0c6e4c8abd47ab5" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/bootable/recovery" path="bootable/recovery" revision="d5f7a4e0cf9f84ca7cfdfa4376e1463698056b12" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/build" path="build" revision="1d9aa4eab3ca409120b4051d80bf2f277b2e3328" upstream="m-amlogic">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -329,7 +329,7 @@
   <project name="m-amlogic/platform/packages/amlogic/FileBrowser" path="vendor/amlogic/apps/FileBrowser" revision="511282546e607cfeb0df3aecfb846cadd2e63bb2" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/packages/amlogic/HDMI_in" path="vendor/amlogic/apps/HDMI_in" revision="4c16c4a6dda8c54397811e1f33fe0805762bae3b" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/packages/amlogic/HdmiSwitch" path="vendor/amlogic/apps/HdmiSwitch" revision="7243a67fa210c6e9ebf4dc0e5570286a32c36b53" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="f62ef3759eae106d796fe777048ffcf26f712bc6" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/packages/amlogic/LibPlayer" path="vendor/amlogic/frameworks/av/LibPlayer" revision="bf9841b2ec3e81a4bbc05e118d2429d7260f2829" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/platform/packages/amlogic/MboxLauncher2" path="vendor/amlogic/apps/MboxLauncher2" revision="956dd647739389432429426e5a9c663d8467f6de" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/packages/amlogic/MboxSettings" path="vendor/amlogic/apps/MboxSettings" revision="3ab26241bfbf0fcdcd874f5615b10a88c061f9cb" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/packages/amlogic/Miracast" path="vendor/amlogic/apps/Miracast" revision="a497339d6de6e32a14174a9aec56bd685ca2691c" upstream="m-amlogic"/>
@@ -445,14 +445,14 @@
   <project name="m-amlogic/platform/system/vold" path="system/vold" revision="aa1ecdedec65efcea4c39a837c164d79a382cca2" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" upstream="m-amlogic"/>
-  <project name="m-amlogic/uboot" path="uboot" revision="6469b0e1842603ba4ec60fc6d03f7de21eec46fe" upstream="m-amlogic"/>
+  <project name="m-amlogic/uboot" path="uboot" revision="7f3af99376081443dfd6ca1c03f2bdeab893e14c" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/vendor/amlogic/dvb" path="vendor/amlogic/dvb" revision="0bdfaafe8091c364598fca4612b7fffffb1f0385" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="b6d6511bc2b7dbc6abdf1365eddeb09fddef279b" upstream="m-amlogic"/>
+  <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="cb9751b49d3af584172600b56b7896c920e52ead" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="9547ccc1bee2279283faf20db63f087223eff414" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="8f36890dfc5c0c67537cb4f1d1db725816807e96" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="91cc925a6eab9697b5cff236e94857a3c392d231" upstream="m-amlogic"/>
+  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="2c49fc13fe33ea85e6b88721f1b621a54168c056" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="4f745cc9e67f0fecd1e2f9b54706f5ef373f8933" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="8803a703cde075a4f492d8fce32c823892cdbeee" upstream="m-amlogic"/>
