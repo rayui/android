@@ -7,7 +7,7 @@
   <project name="m-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="m-amlogic"/>
   <project name="m-amlogic/bagder/curl" path="external/curl" revision="df3141eba55bc18ca8b0bf7a1078530bbede94bf" upstream="m-amlogic"/>
   <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="a7f2dbf5233f0af66f07826e683ecbe15fae83f1" upstream="l-amlogic-gx-20160302"/>
-  <project name="m-amlogic/kernel/common" path="common" revision="62505b9acfaeadab7d5066047ffa4f3a8ac204f7" upstream="l-amlogic-gx-20160302"/>
+  <project name="m-amlogic/kernel/common" path="common" revision="a98229d1ac22c3196d4bf815fd7167e703bed911" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="8c65191d4585a66f3b193e3761996077199bb22e" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/art" path="art" revision="d8e28505f0be821475c7b18a416aa4f1a9e2871d" upstream="m-amlogic"/>
