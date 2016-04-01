@@ -228,6 +228,9 @@
   <project path="hardware/arm/gpu" name="m-amlogic/platform/hardware/arm/gpu" />
   <project path="hardware/tvin" name="m-amlogic/linux/amlogic/tvin" />
   <project path="hardware/wifi/realtek/drivers/8188eu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" />
+  <project path="hardware/wifi/mtk/drivers/mt7601" name="m-amlogic/platform/hardware/wifi/mtk/drivers/mt7601" />
+  <project path="hardware/wifi/mtk/drivers/mt7603" name="m-amlogic/platform/hardware/wifi/mtk/drivers/mt7603" />
+  <project path="hardware/wifi/realtek/drivers/8188ftv" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8188ftv" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192cu" />
   <project path="hardware/wifi/realtek/drivers/8192du" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192du" />
   <project path="hardware/wifi/realtek/drivers/8192eu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8192eu" />
