@@ -26,6 +26,10 @@
   <remove-project name="m-amlogic/device/google/atv" />
   <remove-project name="m-amlogic/device/htc/flounder" />
   <remove-project name="m-amlogic/device/htc/flounder-kernel" />
+  <remove-project name="m-amlogic/device/huawei/angler" />
+  <remove-project name="m-amlogic/device/huawei/angler-kernel" />
+  <remove-project name="m-amlogic/device/lge/bullhead" />
+  <remove-project name="m-amlogic/device/lge/bullhead-kernel" />
   <remove-project name="m-amlogic/device/lge/hammerhead" />
   <remove-project name="m-amlogic/device/lge/hammerhead-kernel" />
   <remove-project name="m-amlogic/device/moto/shamu" />
@@ -55,6 +59,7 @@
   <remove-project name="m-amlogic/platform/hardware/qcom/keymaster" />
   <remove-project name="m-amlogic/platform/hardware/qcom/media" />
   <remove-project name="m-amlogic/platform/hardware/qcom/msm8960" />
+  <remove-project name="m-amlogic/platform/hardware/qcom/msm8994" />
   <remove-project name="m-amlogic/platform/hardware/qcom/msm8x26" />
   <remove-project name="m-amlogic/platform/hardware/qcom/msm8x27" />
   <remove-project name="m-amlogic/platform/hardware/qcom/msm8x74" />
@@ -90,14 +95,8 @@
   <project path="bionic" name="m-amlogic/platform/bionic" />
   <remove-project name="m-amlogic/platform/bootable/recovery" />
   <project path="bootable/recovery" name="m-amlogic/platform/bootable/recovery" />
-  <!--
-  <remove-project name="m-amlogic/platform/external/bluetooth/bluedroid" />
-  <project path="external/bluetooth/bluedroid" name="m-amlogic/platform/external/bluetooth/bluedroid" groups="pdk" revision="refs/heads/l-amlogic" />
-  <remove-project name="m-amlogic/platform/external/chromium_org" />
-  <project path="external/chromium_org" name="m-amlogic/platform/external/chromium_org" revision="refs/heads/l-amlogic" />
-  <remove-project name="m-amlogic/platform/external/chromium_org/third_party/WebKit" />
-  <project path="external/chromium_org/third_party/WebKit" name="m-amlogic/platform/external/chromium_org/third_party/WebKit" revision="refs/heads/l-amlogic" />
-  -->
+
+  <!-- external changes -->
   <remove-project name="m-amlogic/platform/external/conscrypt" />
   <project path="external/conscrypt" name="m-amlogic/platform/external/conscrypt" />
   <remove-project name="m-amlogic/platform/external/dhcpcd" />
@@ -108,6 +107,8 @@
   <project path="external/icu" name="m-amlogic/platform/external/icu" />
   <remove-project name="m-amlogic/platform/external/jpeg" />
   <project path="external/jpeg" name="m-amlogic/platform/external/jpeg" />
+  <remove-project name="m-amlogic/platform/external/libusb" />
+  <project path="external/libusb" name="m-amlogic/platform/external/libusb" />
   <remove-project name="m-amlogic/platform/external/libyuv" />
   <project path="external/libyuv" name="m-amlogic/platform/external/libyuv" />
   <remove-project path="external/libpng" name="m-amlogic/platform/external/libpng" />
@@ -128,30 +129,28 @@
   <project path="external/wpa_supplicant_8" name="m-amlogic/platform/external/wpa_supplicant_8" />
   <remove-project name="m-amlogic/platform/external/zlib" />
   <project path="external/zlib" name="m-amlogic/platform/external/zlib" />
+  <!-- frameworks changes -->
   <remove-project name="m-amlogic/platform/frameworks/av" />
   <project path="frameworks/av" name="m-amlogic/platform/frameworks/av" />
-  <!--
   <remove-project name="m-amlogic/platform/frameworks/base" />
-  <project path="frameworks/base" name="m-amlogic/platform/frameworks/base" groups="pdk-cw-fs" />
-  -->
+  <project path="frameworks/base" name="m-amlogic/platform/frameworks/base" />
+  <remove-project name="m-amlogic/platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="m-amlogic/platform/frameworks/minikin" />
   <remove-project name="m-amlogic/platform/frameworks/native" />
   <project path="frameworks/native" name="m-amlogic/platform/frameworks/native" />
-  <!--
-  <remove-project name="m-amlogic/platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="m-amlogic/platform/frameworks/opt/net/wifi" groups="pdk" revision="refs/heads/m-amlogic" />
-  <remove-project name="m-amlogic/platform/frameworks/opt/net/ethernet" />
-  <project path="frameworks/opt/net/ethernet" name="m-amlogic/platform/frameworks/opt/net/ethernet" revision="refs/heads/m-amlogic" />
-  <remove-project name="m-amlogic/platform/frameworks/webview" />
-  <project path="frameworks/webview" name="m-amlogic/platform/frameworks/webview" groups="pdk-cw-fs" revision="refs/heads/m-amlogic" />
+  <remove-project name="m-amlogic/platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="m-amlogic/platform/frameworks/opt/telephony"  />
   <remove-project name="m-amlogic/platform/frameworks/wilhelm" />
-  <project path="frameworks/wilhelm" name="m-amlogic/platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="refs/heads/m-amlogic" />
-  -->
+  <project path="frameworks/wilhelm" name="m-amlogic/platform/frameworks/wilhelm" />
+
+  <!-- hardware changes -->
   <remove-project name="m-amlogic/platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="m-amlogic/platform/hardware/libhardware" />
   <remove-project name="m-amlogic/platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="m-amlogic/platform/hardware/libhardware_legacy" />
   <remove-project name="m-amlogic/platform/libcore" />
   <project path="libcore" name="m-amlogic/platform/libcore" />
+  <!-- apps changes -->
   <remove-project name="m-amlogic/platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Bluetooth" name="m-amlogic/platform/packages/apps/Bluetooth" />
   <remove-project name="m-amlogic/platform/packages/apps/Browser" />
@@ -160,6 +159,8 @@
   <project path="packages/apps/Camera2" name="m-amlogic/platform/packages/apps/Camera2" />
   <remove-project name="m-amlogic/platform/packages/apps/Calculator" />
   <project path="packages/apps/Calculator" name="m-amlogic/platform/packages/apps/Calculator" />
+  <remove-project name="m-amlogic/platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="m-amlogic/platform/packages/apps/Contacts" />
   <remove-project name="m-amlogic/platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="m-amlogic/platform/packages/apps/Gallery2" />
   <remove-project name="m-amlogic/platform/packages/apps/Launcher2" />
@@ -168,35 +169,32 @@
   <project path="packages/apps/Music" name="m-amlogic/platform/packages/apps/Music" />
   <remove-project name="m-amlogic/platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="m-amlogic/platform/packages/apps/PackageInstaller" />
-  <remove-project name="m-amlogic/platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="m-amlogic/platform/packages/apps/Contacts" />
   <remove-project name="m-amlogic/platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="m-amlogic/platform/packages/apps/Settings" />
   <remove-project name="m-amlogic/platform/packages/apps/Stk" />
   <project path="packages/apps/Stk" name="m-amlogic/platform/packages/apps/Stk" />
-  <remove-project name="m-amlogic/platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="m-amlogic/platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="m-amlogic/platform/packages/apps/TvSettings" />
   <project path="packages/apps/TvSettings" name="m-amlogic/platform/packages/apps/TvSettings"  />
+
+  <!-- LatinIME changes -->
+  <remove-project name="m-amlogic/platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="m-amlogic/platform/packages/inputmethods/LatinIME" />
+  <!-- MediaProvider changes -->
   <remove-project name="m-amlogic/platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="m-amlogic/platform/packages/providers/MediaProvider" />
+  <!-- packages/services/Telephony changes -->
   <remove-project name="m-amlogic/platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="m-amlogic/platform/packages/services/Telephony" />
+  <!-- system changes -->
   <remove-project name="m-amlogic/platform/system/core" />
   <project path="system/core" name="m-amlogic/platform/system/core" />
   <remove-project name="m-amlogic/platform/system/extras" />
   <project path="system/extras" name="m-amlogic/platform/system/extras" />
-  <remove-project name="m-amlogic/platform/system/vold" />
-  <project path="system/vold" name="m-amlogic/platform/system/vold" />
   <remove-project name="m-amlogic/platform/system/media" />
   <project path="system/media" name="m-amlogic/platform/system/media" />
-  <remove-project name="m-amlogic/platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="m-amlogic/platform/frameworks/opt/telephony" />
-  <!--
-  <remove-project name="m-amlogic/platform/external/libusb" />
-  <project path="external/libusb" name="m-amlogic/libusb" groups="pdk" revision="kk-amlogic" />
-  -->
+  <remove-project name="m-amlogic/platform/system/vold" />
+  <project path="system/vold" name="m-amlogic/platform/system/vold" />
 
   <!-- add projects -->
   <project path="device/amlogic" name="m-amlogic/device/amlogic" />

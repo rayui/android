@@ -29,6 +29,8 @@
   <project path="device/asus/fugu" name="m-amlogic/device/asus/fugu" />
   <project path="device/asus/fugu-kernel" name="m-amlogic/device/asus/fugu-kernel" />
   <project path="device/common" name="m-amlogic/device/common" />
+  <project path="device/lge/bullhead" name="m-amlogic/device/lge/bullhead" />
+  <project path="device/lge/bullhead-kernel" name="m-amlogic/device/lge/bullhead-kernel" />
   <project path="device/generic/arm64" name="m-amlogic/device/generic/arm64" />
   <project path="device/generic/armv7-a-neon" name="m-amlogic/device/generic/armv7-a-neon" />
   <project path="device/generic/common" name="m-amlogic/device/generic/common" />
@@ -47,6 +49,8 @@
   <project path="device/google/atv" name="m-amlogic/device/google/atv" />
   <project path="device/htc/flounder" name="m-amlogic/device/htc/flounder"  />
   <project path="device/htc/flounder-kernel" name="m-amlogic/device/htc/flounder-kernel" />
+  <project path="device/huawei/angler" name="m-amlogic/device/huawei/angler" />
+  <project path="device/huawei/angler-kernel" name="m-amlogic/device/huawei/angler-kernel" />
   <project path="device/lge/hammerhead" name="m-amlogic/device/lge/hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="m-amlogic/device/lge/hammerhead-kernel" />
   <project path="device/moto/shamu" name="m-amlogic/device/moto/shamu" />
@@ -328,6 +332,7 @@
   <project path="hardware/qcom/keymaster" name="m-amlogic/platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="m-amlogic/platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="m-amlogic/platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/msm8994" name="m-amlogic/platform/hardware/qcom/msm8994" />
   <project path="hardware/qcom/msm8x26" name="m-amlogic/platform/hardware/qcom/msm8x26" />
   <project path="hardware/qcom/msm8x27" name="m-amlogic/platform/hardware/qcom/msm8x27" />
   <project path="hardware/qcom/msm8x74" name="m-amlogic/platform/hardware/qcom/msm8x74" />
@@ -358,7 +363,6 @@
   <project path="packages/apps/Dialer" name="m-amlogic/platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="m-amlogic/platform/packages/apps/Email" />
   <project path="packages/apps/ExactCalculator" name="m-amlogic/platform/packages/apps/ExactCalculator" />
-  <project path="packages/apps/Exchange" name="m-amlogic/platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="m-amlogic/platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="m-amlogic/platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="m-amlogic/platform/packages/apps/Gallery2" />
