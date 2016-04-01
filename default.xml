@@ -3,9 +3,9 @@
 
   <remote  name="openlinux"
            fetch="ssh://git@openlinux.amlogic.com/" review="" />
-  <default revision="m-amlogic"
+  <default revision="m-amlogic-6.0.1"
            remote="openlinux"
-           dest-branch="m-amlogic"
+           dest-branch="m-amlogic-6.0.1"
            sync-c="true"
            sync-j="1" />
 
