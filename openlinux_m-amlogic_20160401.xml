@@ -7,7 +7,7 @@
   <project name="m-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/bagder/curl" path="external/curl" revision="b849ba61aa7dda417ca246be5c84e09b651740dc" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="7c75bd70ef6423b1feef23d3a2118fe3d44b2dd9" upstream="m-amlogic-6.0.1"/>
-  <project name="m-amlogic/fbc3-release" path="fbc3-release" revision="c11f590a00f1cbde562c3d093c5ffabe3727392f" upstream="m-amlogic-6.0.1"/>
+  <project name="m-amlogic/fbc3-release" path="fbc3-release" revision="1c485cc1a9841f4a16ec4238add76caecd631a8e" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/kernel/common" path="common" revision="d398b3785ccc109a608232c428b9f7cb25c37e4d" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="8c65191d4585a66f3b193e3761996077199bb22e" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="m-amlogic-6.0.1"/>
@@ -455,7 +455,7 @@
   <project name="m-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="53a288665ddc9727c32b4a31ea10d52a4402b43c" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="8f36890dfc5c0c67537cb4f1d1db725816807e96" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="m-amlogic-6.0.1"/>
-  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="d078c9d6cda4e912aa10f16b3054b8664b7be059" upstream="m-amlogic-6.0.1"/>
+  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="04da91fffb6847ac8a23dde8ceef7e6c42a86c1c" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="818c76da5902b9dfb464083d6a013f9a601ddb44" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="4f745cc9e67f0fecd1e2f9b54706f5ef373f8933" upstream="m-amlogic-6.0.1"/>
   <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="adf149503651c5acfc53a3931caad872fac5c899" upstream="m-amlogic-6.0.1"/>
