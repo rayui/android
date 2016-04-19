@@ -6,7 +6,7 @@
   
   <project name="m-amlogic/amlogic/tools/ir_blaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31" upstream="m-amlogic"/>
   <project name="m-amlogic/bagder/curl" path="external/curl" revision="df3141eba55bc18ca8b0bf7a1078530bbede94bf" upstream="m-amlogic"/>
-  <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="a7f2dbf5233f0af66f07826e683ecbe15fae83f1" upstream="l-amlogic-gx-20160302"/>
+  <project name="m-amlogic/device/amlogic" path="device/amlogic" revision="05722ba5642d0b38b3bd62b54f586a70cff94147" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/kernel/common" path="common" revision="a98229d1ac22c3196d4bf815fd7167e703bed911" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/linux/amlogic/tvin" path="hardware/tvin" revision="8c65191d4585a66f3b193e3761996077199bb22e" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="m-amlogic"/>
@@ -204,7 +204,7 @@
   <project name="m-amlogic/platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/scrypt" path="external/scrypt" revision="72691396f9fa84fd39cb72d031750e580e648aa3" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/selinux" path="external/selinux" revision="df08387c528396f2b9810cb69638755e8a2d7022" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/external/sepolicy" path="external/sepolicy" revision="4e15f3bfde0be9addfa580ac575e0ef7584961fb" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/external/sepolicy" path="external/sepolicy" revision="d76ccadb97b94277c65a9f1660ae763bce250132" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/sfntly" path="external/sfntly" revision="a01a58c85ae6f0b1fe97e4a383bb7536285264d8" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/skia" path="external/skia" revision="05809fe2c7648fdd007ae2fd31598f3373e979dd" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/external/slf4j" path="external/slf4j" revision="7122d7eba20aeeaf319017b655271889f825f750" upstream="m-amlogic"/>
@@ -435,7 +435,7 @@
   <project name="m-amlogic/platform/prebuilts/tools" path="prebuilts/tools" revision="47b1142478503a80b89a4e724b0c12af60d9cc1f" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/sdk" path="sdk" revision="3c9c2be94a1b36a7e01c9011966137badee8b843" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/system/bt" path="system/bt" revision="4c9869439daa0b70eaaef6ffca531172e999174f" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/system/core" path="system/core" revision="da06e48dcc8a9532b1ff7689d12bfe616a6a06cf" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/system/core" path="system/core" revision="eb27ab074f9fd7f1d356298380905aff25bd2dd6" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/system/extras" path="system/extras" revision="7ca50c1da9503e8c0ed66477d9ba8ed738afc21c" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/system/gatekeeper" path="system/gatekeeper" revision="e547f93b0089f12c78d33b83e5f49fdb0e0c85bc" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/system/keymaster" path="system/keymaster" revision="b0f457efa768e7ae6b394a29a02e2fe56d5b4788" upstream="m-amlogic"/>
@@ -445,15 +445,15 @@
   <project name="m-amlogic/platform/system/vold" path="system/vold" revision="aa1ecdedec65efcea4c39a837c164d79a382cca2" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" upstream="m-amlogic"/>
-  <project name="m-amlogic/uboot" path="uboot" revision="7f3af99376081443dfd6ca1c03f2bdeab893e14c" upstream="l-amlogic-gx-20160302"/>
+  <project name="m-amlogic/uboot" path="uboot" revision="6469b0e1842603ba4ec60fc6d03f7de21eec46fe" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/vendor/amlogic/dvb" path="vendor/amlogic/dvb" revision="0bdfaafe8091c364598fca4612b7fffffb1f0385" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="cb9751b49d3af584172600b56b7896c920e52ead" upstream="l-amlogic-gx-20160302"/>
+  <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="fee2a47af2f8ae259e7d8037f4c1d079edce2b67" upstream="l-amlogic-gx-20160302"/>
   <project name="m-amlogic/vendor/amlogic/frameworks/av" path="vendor/amlogic/frameworks/av" revision="9547ccc1bee2279283faf20db63f087223eff414" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/frameworks/pppoe" path="vendor/amlogic/frameworks/pppoe" revision="8f36890dfc5c0c67537cb4f1d1db725816807e96" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="2c49fc13fe33ea85e6b88721f1b621a54168c056" upstream="m-amlogic"/>
+  <project name="m-amlogic/vendor/amlogic/prebuilt" path="vendor/amlogic/prebuilt" revision="e0a369dba7562708983835a7bed5d695953fd8c9" upstream="l-amlogic-gx-20160229"/>
   <project name="m-amlogic/vendor/amlogic/system" path="vendor/amlogic/system" revision="c0558b0ca4ec5d7bfe59f08f4bebd727ea6bdb68" upstream="m-amlogic"/>
   <project name="m-amlogic/vendor/amlogic/tools" path="vendor/amlogic/tools" revision="4f745cc9e67f0fecd1e2f9b54706f5ef373f8933" upstream="m-amlogic"/>
-  <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="8803a703cde075a4f492d8fce32c823892cdbeee" upstream="m-amlogic"/>
+  <project name="m-amlogic/vendor/widevine" path="vendor/widevine" revision="41111c0913e450dd5b3147e546f1ca27463e7158" upstream="m-amlogic"/>
 </manifest>
