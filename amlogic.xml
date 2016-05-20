@@ -214,7 +214,6 @@
   <project path="hardware/amlogic/hwcomposer" name="m-amlogic/platform/hardware/amlogic/hwcomposer" />
   <project path="hardware/amlogic/libbt" name="m-amlogic/platform/hardware/amlogic/libbt" />
   <project path="hardware/amlogic/lights" name="m-amlogic/platform/hardware/amlogic/lights" />
-  <project path="hardware/amlogic/mali" name="m-amlogic/platform/hardware/amlogic/mali" />
   <project path="hardware/amlogic/memtrack" name="m-amlogic/platform/hardware/amlogic/memtrack" />
   <project path="hardware/amlogic/nand" name="m-amlogic/platform/hardware/amlogic/nand" />
   <project path="hardware/amlogic/pmu" name="m-amlogic/platform/hardware/amlogic/pmu" />
