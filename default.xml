@@ -3,6 +3,10 @@
 
   <remote  name="origin"
            fetch=".." review="" />
+
+  <remote  name="hardkernel"
+           fetch=".." />
+
   <default revision="l-amlogic-20150514"
            remote="origin"
            dest-branch="l-amlogic-20150514"
@@ -498,5 +502,5 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib"  />
   <project path="tools/external/gradle" name="platform/tools/external/gradle"  />
 
-  <include name="amlogic.xml" />
+  <include name="hardkernel.xml" />
 </manifest>
