@@ -188,6 +188,8 @@
   <!-- add projects -->
   <project path="bootable/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidc-v2011.03" />
   <project path="device/amlogic" name="device/amlogic"  />
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" groups="device" remote="origin" revision="refs/heads/s805_5.1.1_dev_master" />
+  <project path="device/hardkernel/odroidc" name="android_device_hardkernel_odroidc" groups="device" remote="origin" revision="refs/heads/s805_5.1.1_dev_master" />
   <project path="common" name="kernel/common"  />
   <project path="external/busybox" name="platform/external/busybox"  />
   <project path="external/curl" name="bagder/curl"  />
