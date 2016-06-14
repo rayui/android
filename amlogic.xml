@@ -243,6 +243,7 @@
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" />
   <project path="hardware/wifi/broadcom/drivers/usi" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/usi" />
   <project path="hardware/realtek/bluetooth" name="m-amlogic/platform/hardware/realtek/bluetooth" />
+  <project path="hardware/wifi/qualcomm/drivers/qca9377" name="m-amlogic/platform/hardware/wifi/qualcomm/drivers/qca9377"  />
   <project path="vendor/amlogic/apps/MboxLauncher2" name="m-amlogic/platform/packages/amlogic/MboxLauncher2" />
   <project path="vendor/amlogic/apps/PPPoE" name="m-amlogic/platform/packages/amlogic/PPPoE" />
   <project path="vendor/amlogic/apps/MboxSettings" name="m-amlogic/platform/packages/amlogic/MboxSettings" />
@@ -271,6 +272,7 @@
   <project path="vendor/amlogic/tools" name="m-amlogic/vendor/amlogic/tools" />
   <project path="vendor/amlogic/external/alsa-lib" name="m-amlogic/platform/external/alsa-lib" />
   <project path="vendor/widevine" name="m-amlogic/vendor/widevine" />
+  <project path="vendor/qualcomm/proprietary/bt" name="m-amlogic/platform/vendor/qualcomm/proprietary/bt" />
   <project path="vendor/broadcom/btusb" name="m-amlogic/vendor/broadcom/btusb" />
 
   <!-- END add projects -->
