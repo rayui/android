@@ -279,7 +279,7 @@
   <project name="m-amlogic/platform/hardware/amlogic/camera" path="hardware/amlogic/camera" revision="38b48d5d292deaa1821ca974b589b9727df15cdc" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/consumerir" path="hardware/amlogic/consumerir" revision="d690fc2b76539edc73f5e1715c3bf1ef75796c08" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/gralloc" path="hardware/amlogic/gralloc" revision="fcbecc37fbd841f5f5ce1da75a5ac915f1ef3690" upstream="m-amlogic"/>
-  <project name="m-amlogic/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="6960d8e483fd70098c9ffb9213739542b683c1c1" upstream="m-amlogic"/>
+  <project name="m-amlogic/platform/hardware/amlogic/hdmi_cec" path="hardware/amlogic/hdmi_cec" revision="1e159c44e5ed3cdae4ebec0f5a429ea6013c5191" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/hwcomposer" path="hardware/amlogic/hwcomposer" revision="dcd57185b6117b958dbab83c13303b03ba074da0" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/libbt" path="hardware/amlogic/libbt" revision="662261a9faf9915cc65a51ccf50e66f15a8d95c3" upstream="m-amlogic"/>
   <project name="m-amlogic/platform/hardware/amlogic/lights" path="hardware/amlogic/lights" revision="a782a6a49bc287778ab33fd7e302c157725301fa" upstream="m-amlogic"/>
