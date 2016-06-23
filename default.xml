@@ -542,4 +542,5 @@
   <project path="vendor/amlogic/prebuilt" name="android_vendor_amlogic_prebuilt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/system" name="android_vendor_amlogic_system" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/system/modem" name="android_vendor_amlogic_modem" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" revision="refs/heads/s905_5.1.1_master" />
 </manifest>
