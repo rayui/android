@@ -447,7 +447,7 @@
   <project name="m-amlogic/platform/system/vold" path="system/vold" revision="7ecf6407ffd5e650ee545d85c70cc647fd0a44d3" upstream="m-amlogic-openlinux-20160503"/>
   <project name="m-amlogic/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="m-amlogic-openlinux-20160503"/>
   <project name="m-amlogic/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997" upstream="m-amlogic-openlinux-20160503"/>
-  <project name="m-amlogic/uboot" path="uboot" revision="5cddd7c4ad83ac3421adfed1339db2e2dc232473" upstream="m-amlogic-openlinux-20160503"/>
+  <project name="m-amlogic/uboot" path="uboot" revision="1513288620a49caaf81e8ced6193fa7cc14fcd0d" upstream="m-amlogic-openlinux-20160503"/>
   <project name="m-amlogic/vendor/amlogic/dvb" path="vendor/amlogic/dvb" revision="cddf7f408a0ef3da5696249082363bde7445287a" upstream="m-amlogic-openlinux-20160503"/>
   <project name="m-amlogic/vendor/amlogic/external/libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f" upstream="m-amlogic-openlinux-20160503"/>
   <project name="m-amlogic/vendor/amlogic/frameworks" path="vendor/amlogic/frameworks" revision="c5feb38961f5b40768e717102f3622e286ec9a31" upstream="m-amlogic-openlinux-20160503"/>
