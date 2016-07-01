@@ -224,6 +224,7 @@
   <project path="hardware/amlogic/sensors" name="m-amlogic/platform/hardware/amlogic/sensors" />
   <project path="hardware/amlogic/screen_source" name="m-amlogic/platform/hardware/amlogic/screen_source" />
   <project path="hardware/amlogic/usbctrl" name="m-amlogic/platform/hardware/amlogic/usbctrl" />
+  <project path="hardware/amlogic/audio_dia_remote" name="m-amlogic/platform/hardware/amlogic/audio_dia_remote" />
   <project path="hardware/arm/gpu" name="m-amlogic/platform/hardware/arm/gpu" />
   <project path="hardware/tvin" name="m-amlogic/linux/amlogic/tvin" />
   <project path="hardware/wifi/realtek/drivers/8188eu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8188eu" />
@@ -240,6 +241,7 @@
   <project path="hardware/wifi/realtek/drivers/8811au" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8811au" />
   <project path="hardware/wifi/realtek/drivers/8812au" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8812au" />
   <project path="hardware/wifi/realtek/drivers/8723bu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8723bu" />
+  <project path="hardware/wifi/realtek/drivers/8822bu" name="m-amlogic/platform/hardware/wifi/realtek/drivers/8822bu" />
   <project path="hardware/wifi/broadcom/drivers/ap6xxx" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/ap6xxx" />
   <project path="hardware/wifi/broadcom/drivers/usi" name="m-amlogic/platform/hardware/wifi/broadcom/drivers/usi" />
   <project path="hardware/realtek/bluetooth" name="m-amlogic/platform/hardware/realtek/bluetooth" />
