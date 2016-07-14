@@ -516,4 +516,5 @@
   <project path="vendor/amlogic/system" name="android_vendor_amlogic_system" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="vendor/amlogic/system/modem" name="android_vendor_amlogic_modem" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="vendor/amlogic/tools" name="android_vendor_amlogic_tools" remote="origin" revision="refs/heads/s805_5.1.1_master" />
+  <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" revision="refs/heads/s805_5.1.1_master" />
 </manifest>
