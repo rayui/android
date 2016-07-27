@@ -508,12 +508,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/amlogic/apps/MboxSettings" name="android_packages_amlogic_MboxSettings" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="vendor/amlogic/apps/NativeImagePlayer" name="android_packages_amlogic_NativeImagePlayer" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/apps/PPPoE" name="android_packages_amlogic_PPPoE" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="vendor/amlogic/apps/RemoteIME" name="android_packages_amlogic_RemoteIME" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="vendor/amlogic/apps/SubTitle" name="android_packages_amlogic_SubTitle" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="vendor/amlogic/apps/VideoPlayer" name="android_packages_amlogic_VideoPlayer" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/apps/system_monitor" name="android_amlogic_tools_system_monitor" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/external/alsa-lib" name="android_external_alsa-lib" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="vendor/amlogic/external/libtiff" name="android_external_libtiff" remote="origin" revision="refs/heads/s905_5.1.1_master" />
