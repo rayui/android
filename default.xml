@@ -23,8 +23,8 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="bootable/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidc2-v2015.01" />
-  <project path="cts" name="android_cts" groups="cts" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="dalvik" name="android_dalvik" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -107,7 +107,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/conscrypt" name="android_external_conscrypt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
   <project path="external/curl" name="android_external_curl" groups="amlogic" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
@@ -257,7 +257,7 @@
   <project path="external/skia" name="android_external_skia" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
-  <project path="external/sonivox" name="android_external_sonivox" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
@@ -273,7 +273,7 @@
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <project path="external/tremolo" name="android_external_tremolo" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
@@ -347,21 +347,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/libsensor" name="android_hardware_hardkernel_libsensor" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
@@ -382,9 +367,6 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/odroidc2-3.14.y-android" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -431,7 +413,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
@@ -454,7 +436,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -509,7 +491,7 @@
   <project path="system/extras" name="android_system_extras" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="android_system_netd" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
