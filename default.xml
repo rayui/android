@@ -340,6 +340,7 @@
   <project path="hardware/arm/gpu" name="android_hardware_arm_gpu" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="hardware/backports" name="android_hardware_backports" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" groups="amlogic" remote="origin" revision="refs/heads/s805_5.1.1_master" />
+  <project path="hardware/wifi/realtek/drivers/rtl8812au" name="android_hardware_wifi_realtek_drivers_rtl8812au" groups="amlogic" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" revision="refs/heads/s805_5.1.1_master" />
