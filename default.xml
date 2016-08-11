@@ -11,9 +11,9 @@
   <remote  name="origin"
            fetch="https://github.com/codewalkerster/" />
 
-  <default revision="refs/tags/android-5.1.1_r1"
+  <default revision="refs/tags/android-5.1.1_r38"
            remote="aosp"
-           sync-j="1" />
+           sync-j="4" />
 
   <project path="build" name="android_build" groups="pdk,tradefed" remote="origin" revision="refs/heads/s905_5.1.1_master" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -52,7 +52,7 @@
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" groups="device" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
-  <project path="external/aac" name="android_external_aac" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
@@ -130,7 +130,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="amlogic" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="android_external_flac" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
@@ -178,7 +178,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" />
-  <project path="external/libhevc" name="android_external_libhevc" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="external/libhevc" name="platform/external/libhevc" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
