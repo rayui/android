@@ -11,9 +11,9 @@
   <remote  name="origin"
            fetch="https://github.com/codewalkerster/" />
 
-  <default revision="refs/tags/android-5.1.1_r24"
+  <default revision="refs/tags/android-5.1.1_r38"
            remote="aosp"
-           sync-j="1" />
+           sync-j="4" />
 
   <project path="build" name="android_build" groups="pdk,tradefed" remote="origin" revision="refs/heads/s805_5.1.1_master" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -130,7 +130,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="amlogic" remote="origin" revision="refs/heads/s805_5.1.1_master" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="android_external_flac" groups="pdk" remote="origin" revision="refs/heads/s805_5.1.1_master" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
