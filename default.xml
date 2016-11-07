@@ -30,6 +30,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="device/hardkernel/odroidc2" name="android_device_hardkernel_odroidc2" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
+  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="android_external_aac" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -331,6 +332,7 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="origin" revision="refs/heads/s905_6.0.1_master" />
+  <project path="packages/apps/Utility" name="android_packages_apps_Utility" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
