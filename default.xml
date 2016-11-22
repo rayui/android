@@ -412,7 +412,6 @@
   <project path="hardware/amlogic/pmu" name="android_hardware_amlogic_pmu" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="hardware/amlogic/power" name="android_hardware_amlogic_power" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="hardware/amlogic/wifi" name="android_hardware_amlogic_wifi" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="hardware/amlogic/thermal" name="android_hardware_amlogic_thermal" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="hardware/amlogic/touch" name="android_hardware_amlogic_touch" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="hardware/amlogic/sensors" name="android_hardware_amlogic_sensors" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="hardware/amlogic/screen_source" name="android_hardware_amlogic_screen_source" remote="origin" revision="refs/heads/s905_6.0.1_master" />
