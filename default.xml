@@ -17,6 +17,7 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="origin" revision="refs/heads/s905_6.0.1_master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" revision="refs/heads/s905_6.0.1_master" />
