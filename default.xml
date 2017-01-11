@@ -437,6 +437,7 @@
   <project path="vendor/amlogic/tools" name="android_vendor_amlogic_tools" remote="origin" revision="refs/heads/s905_marshmallow_master" />
   <project path="vendor/amlogic/external/alsa-lib" name="android_external_alsa-lib" remote="origin" revision="refs/heads/s905_marshmallow_master" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" revision="refs/heads/s905_marshmallow_master" />
+  <project path="vendor/broadcom/btusb" name="android_vendor_broadcom_btusb" remote="origin" revision="refs/heads/s905_marshmallow_master" />
 
   <!-- END add projects -->
 
