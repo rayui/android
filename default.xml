@@ -439,12 +439,4 @@
   <project path="vendor/widevine" name="android_vendor_widevine" remote="origin" revision="refs/heads/s905_marshmallow_master" />
 
   <!-- END add projects -->
-
-  <!-- start dvb projects -->
-  <project path="external/libzvbi" name="android_external_libzvbi" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="vendor/amlogic/dvb" name="android_vendor_amlogic_dvb" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="vendor/amlogic/apps/TvMiddleware" name="android_packages_amlogic_TvMiddleware" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="vendor/amlogic/apps/DTVPlayer" name="android_packages_amlogic_DTVPlayer" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <!-- END dvb projects -->
-
 </manifest>
