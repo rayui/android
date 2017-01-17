@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-7.1.1_r6" sync-c="true" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="11b0f08cf4231bec244a73bc214f8b6c727d2129" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="1cf5e5bee10262b19864fd2214e86880773f9b55" upstream="rk3399/box/android-6.0"/>
   <project name="android/RKTools" path="RKTools" remote="rk" revision="ce0d44915d3b13cc556ff607dde745f71965ccc3" upstream="rk3399/box/android-6.0"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="ed0209c090aee3244e0902380a2e6c33693ba5bc" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="0f4aed65b1b04526298fc0f272815e59aa1b2a8e" upstream="rk33/mid/7.0/develop"/>
@@ -20,7 +20,7 @@
   </project>
   <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="fccad223f5fea12d80b2dd193669a39425bb6750" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="74f4c9145bf01dc48133665d941349076536e791" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="6bdc9ffc02d81d52c30f85d2a60998e33ca9f104" upstream="rk33/mid/6.0/develop_drm"/>
+  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="961c1c6fdda0b0a25de66a761d3fff400f47be95" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="02636d48a999fa21c494f9d6b10f27020e8021c4" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="aec928e51175616eaa658d20b66d3dc1d63a6b04" upstream="rk32/mid/6.0/develop"/>
@@ -28,7 +28,7 @@
   <project name="android/rk/hardware/rk29/librga" path="hardware/rockchip/librga" remote="rk" revision="99474b5765a770814b63b0daff0a8cbd703ad7ab" upstream="master"/>
   <project name="android/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="736c774b3cde3a986a26cacfd5a6a290b78b844d" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="d6f2770b1a6d714188a83d058591aee0f29d1e5d" upstream="rk33/mid/7.0/develop"/>
-  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="08b0c1ffab018b98120a1fc6fbdcff940b6000fa" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="3f51c10067d7aaf3d4a80f545403e7ab2712f27e" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="277c17f4694b050cad96526ef065d1b64c1edf55" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="c243be4233af17e69dc09a7479f2f8c5725898cb" upstream="rk32/mid/6.0/develop"/>
