@@ -398,7 +398,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
 
   <!-- add projects -->
-  <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/odroidc2-3.14.y-android" />
+  <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/odroidc2-3.14.y-android-m" />
   <project path="external/busybox" name="android_external_busybox" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="external/curl" name="android_external_curl" groups="amlogic" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" groups="amlogic" remote="origin" revision="refs/heads/s905_6.0.1_master" />
