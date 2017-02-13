@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-7.1.1_r6" sync-c="true" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="1cf5e5bee10262b19864fd2214e86880773f9b55" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="4292d2060baa21d82bb4a413ebbaef338faec1fe" upstream="rk3399/box/android-6.0"/>
   <project name="android/RKTools" path="RKTools" remote="rk" revision="ce0d44915d3b13cc556ff607dde745f71965ccc3" upstream="rk3399/box/android-6.0"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="ed0209c090aee3244e0902380a2e6c33693ba5bc" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="0f4aed65b1b04526298fc0f272815e59aa1b2a8e" upstream="rk33/mid/7.0/develop"/>
@@ -37,7 +37,7 @@
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="fa7981dc9f5416a694a584d9edcc33eb5a89cb59" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="f0119eb908dd30bfb356cd050fbad7e5cda68953" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="b5a199769e330eea63ca693f5ec010a083f55ced" upstream="rkproduct"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="c6cade6eeb0976d8b471fd4797fc04ebd3dfdafd" upstream="rkproduct"/>
   <project groups="device,fugu,broadcom_pdk" name="device/asus/fugu" revision="a04581f7ae60185dd35c2580e812c2da2d170bfb" upstream="refs/tags/android-7.1.1_r6"/>
   <project clone-depth="1" groups="device,fugu,broadcom_pdk" name="device/asus/fugu-kernel" revision="deec3376b3dbfa50b6fd9c7e6dd0b54d93e58e2b" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="ce8d3a16fd31621ff1d6fd3af783dfecf62ed15f" upstream="refs/tags/android-7.1.1_r6"/>
@@ -558,6 +558,6 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-7.1.1_r6"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="3e814f34be10a032132b56c27d2841c0d1fc626d" upstream="refs/tags/android-7.1.1_r6"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="ccadc4bc85ba64b24b37f118190f823846f37848" upstream="refs/tags/android-7.1.1_r6"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="1f5cca700604f2970ce339a2a646325b790cf292" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="6c6074b2826d4cd37fb0816be4f54f72ae582f91" upstream="develop-4.4"/>
   <project name="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.1_r6"/>
 </manifest>
