@@ -20,7 +20,7 @@
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
-  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="e8ae151cf0b635bdd67f38ba30e341777d1f817b" upstream="rk33/mid/7.0/develop"/>
+  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="651b7dbd104cda827bed0a31985387f4ce8687b0" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="d797a982e8bd05f6f99745902b49ca363c932b3b" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="0d4b2bb76328701554a18ccf50bd04d8e4e9f830" upstream="rk33/mid/6.0/develop_drm"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk32/mid/6.0/develop"/>
