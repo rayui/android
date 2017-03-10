@@ -16,7 +16,7 @@
     <copyfile dest="build-rk3399-laptop.sh" src="build-rk3399-laptop.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="afc5f854fa65a7a0c8db56983eac7d5434ade8bd" upstream="rk33/mid/7.0/develop">
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="a072067c9d63968689c57c07a66c48604f16dfe0" upstream="rk33/mid/7.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
