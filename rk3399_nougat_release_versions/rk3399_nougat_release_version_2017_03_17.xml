@@ -34,7 +34,7 @@
   <project name="android/rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="277c17f4694b050cad96526ef065d1b64c1edf55" upstream="rk32/mid/7.0/develop"/>
   <project name="android/rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="c243be4233af17e69dc09a7479f2f8c5725898cb" upstream="rk32/mid/6.0/develop"/>
-  <project groups="pdk" name="android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="b1b836317ac297d32c25d40b55c99f6ac3ceb973" upstream="rk33/mid/7.0/develop"/>
+  <project groups="pdk" name="android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="b1b836317ac297d32c25d40b55c99f6ac3ceb973" upstream="rk33/mid/7.0/develop-drm"/>
   <project name="android/rk/platform/external/usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="416cd763c9145295eb6d462facf8726a48642ff1" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="14009b446ea0bcb3b7b33dc13896aeafca82d4d7" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="fa7981dc9f5416a694a584d9edcc33eb5a89cb59" upstream="rk33/mid/7.0/develop"/>
