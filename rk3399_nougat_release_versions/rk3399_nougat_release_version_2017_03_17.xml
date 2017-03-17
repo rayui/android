@@ -561,6 +561,6 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="3e814f34be10a032132b56c27d2841c0d1fc626d" upstream="refs/tags/android-7.1.1_r22"/>
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="ccadc4bc85ba64b24b37f118190f823846f37848" upstream="refs/tags/android-7.1.1_r22"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="0545b1db576e19032e81917c7c5341993c82dbe3" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="3f217d60ae1dfe991ae00c13ef6e57a97bab92a8" upstream="develop-4.4"/>
   <project name="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" upstream="refs/tags/android-7.1.1_r22"/>
 </manifest>
