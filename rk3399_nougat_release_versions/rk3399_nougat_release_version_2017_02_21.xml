@@ -5,8 +5,8 @@
   
   <default remote="aosp" revision="refs/tags/android-7.1.1_r22" sync-c="true" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="cdeb6292c47e469739a54202de09485365c39f6c" upstream="rk3399/box/android-6.0"/>
-  <project name="android/RKTools" path="RKTools" remote="rk" revision="ce0d44915d3b13cc556ff607dde745f71965ccc3" upstream="rk3399/box/android-6.0"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="rk3399/box/android-6.0"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="rk3399/box/android-6.0"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="ed0209c090aee3244e0902380a2e6c33693ba5bc" upstream="rk33/mid/7.0/develop"/>
   <project name="android/platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="0f4aed65b1b04526298fc0f272815e59aa1b2a8e" upstream="rk33/mid/7.0/develop"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="a530d5cdf269c0301068feaa733caa5353d1d4c1" upstream="rk32/mid/6.0/develop"/>
