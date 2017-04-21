@@ -42,7 +42,7 @@
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="8adeb2338de92b9418640891b4c32333035dd65d" upstream="rkproduct"/>
   <project groups="device,fugu,broadcom_pdk" name="device/asus/fugu" revision="e385000f61c2475a8fd07780352373ab6d198392" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,fugu,broadcom_pdk" name="device/asus/fugu-kernel" revision="5e3e84f7f8156ae099d1a956d184a1912fd8bac4" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,fugu,broadcom_pdk" name="device/asus/fugu-kernel" revision="5e3e84f7f8156ae099d1a956d184a1912fd8bac4" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="ce8d3a16fd31621ff1d6fd3af783dfecf62ed15f" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="device/generic/arm64" revision="e6ecf6be2f8acdd21253a08f26ab0f942f76c46d" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="0064a633244371827eef6f7a22208056b6c49566" upstream="refs/tags/android-7.1.1_r22"/>
@@ -64,18 +64,18 @@
   <project groups="device,fugu,broadcom_pdk,generic_fs" name="device/google/atv" revision="7b25e32e182aacb2b1e9c12a55e6be2b49937176" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device" name="device/google/contexthub" revision="14247887cb18f87f000cb5f2c8f84a01c9ba9b84" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device,dragon" name="device/google/dragon" revision="32a554fc30cd61c89f4c5104f2675ed8f971b760" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,dragon" name="device/google/dragon-kernel" revision="357ade87cf9bc27cf8de77dbf88c2dedc6501a44" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,dragon" name="device/google/dragon-kernel" revision="357ade87cf9bc27cf8de77dbf88c2dedc6501a44" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device,flounder,broadcom_pdk" name="device/htc/flounder" revision="d172f8b9167faf5af622341c65c8894c2c39e672" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,flounder,broadcom_pdk" name="device/htc/flounder-kernel" revision="21daeec97d1e6833106c40fdf6c20e4fa8441f62" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,flounder,broadcom_pdk" name="device/htc/flounder-kernel" revision="21daeec97d1e6833106c40fdf6c20e4fa8441f62" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device,angler,broadcom_pdk" name="device/huawei/angler" revision="47ca1eeb8a61eb4d14e91b5a9465913853cea676" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,angler,broadcom_pdk" name="device/huawei/angler-kernel" revision="f44d95c5c2a019b796644ee071b3ec7d7f1de639" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,angler,broadcom_pdk" name="device/huawei/angler-kernel" revision="f44d95c5c2a019b796644ee071b3ec7d7f1de639" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device" name="device/intel/edison" revision="c9ac66b1d30bfa762d17ae5169a1383407e7d65e" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device,bullhead" name="device/lge/bullhead" revision="8159d2310f94d70d6937350cffb2a5588b9993a5" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,bullhead" name="device/lge/bullhead-kernel" revision="ee3c6f4f3939f438a820ac7aed06c9cc1b3380e9" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,bullhead" name="device/lge/bullhead-kernel" revision="ee3c6f4f3939f438a820ac7aed06c9cc1b3380e9" upstream="refs/tags/android-7.1.1_r22"/>
   <project name="device/linaro/hikey" revision="088f85a26a290778b4af95d2a51dfafa1da93a36" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" name="device/linaro/hikey-kernel" revision="9075cf64c5b30b872898c422156af815a1cf02dd" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  name="device/linaro/hikey-kernel" revision="9075cf64c5b30b872898c422156af815a1cf02dd" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="device,shamu,broadcom_pdk" name="device/moto/shamu" revision="3ccd4c463f56adf1db7c0db8a9a781232460a0b8" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="device,shamu,broadcom_pdk" name="device/moto/shamu-kernel" revision="741ddb4bf0768ca9d2307418c1726717bb89cd0b" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="device,shamu,broadcom_pdk" name="device/moto/shamu-kernel" revision="741ddb4bf0768ca9d2307418c1726717bb89cd0b" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="device/sample" revision="d2d05dd5bf56e0b3136cbe733da14a479104cda3" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="platform/art" path="art" revision="12eb0c532e33ca5d5e98addd580b5ad0a4b71be4" upstream="refs/tags/android-7.1.1_r22"/>
@@ -497,7 +497,7 @@
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="98d4aea6e1904ca257440ce8dfa1a8cd6388c6ad" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="708589163e790eb3a7fec09f4832a0f78999bdf3" upstream="refs/tags/android-7.1.1_r22"/>
   <project name="platform/platform_testing" path="platform_testing" revision="9ceec1015953bf3c6bc9a89a064fc35e1d0e67f4" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="4cfa2f2b82149b4d196c22f4518bef4d1d089118" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="4cfa2f2b82149b4d196c22f4518bef4d1d089118" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" revision="606e79e7cd9fc1a6ebb389b5fae0658f2c5494dc" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="4940bb51ee0e71440981e58a7fada9247579563b" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="45562a53b2a5eb7c6e8f400413d19a12c660d7b1" upstream="refs/tags/android-7.1.1_r22"/>
@@ -532,7 +532,7 @@
   <project groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="74e4f93e81205ac85f74eaf5fd4c86515779aee1" upstream="refs/tags/android-7.1.1_r22"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="ad96539afe082a566efcde8b161aa9e19a2970a8" upstream="refs/tags/android-7.1.1_r22"/>
+  <project  groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="ad96539afe082a566efcde8b161aa9e19a2970a8" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="ead1cb27e98ab579a329ad2ebf0d133a9c6c9051" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="c011942cd2da09d646ec22cf6ce94db7fc57bfe6" upstream="refs/tags/android-7.1.1_r22"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" upstream="refs/tags/android-7.1.1_r22"/>
