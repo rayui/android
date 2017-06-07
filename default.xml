@@ -318,6 +318,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/hardkernel/libsensor" name="android_hardware_hardkernel_libsensor" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
+  <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
