@@ -347,6 +347,7 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/hardkernel/libsensor" name="android_hardware_hardkernel_libsensor" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
+  <project path="hardware/hardkernel/lights" name="android_hardware_hardkernel_lights" groups="pdk" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="origin" revision="refs/heads/s905_5.1.1_master" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
