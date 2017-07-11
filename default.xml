@@ -28,7 +28,6 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
-  <!--<project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />-->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -58,11 +57,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
-  <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
+ <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
@@ -73,12 +68,22 @@
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk,generic_fs,pdk" clone-depth="1" />
+  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="origin" revision="2c2670c105ed8189f0322363d0c90cd77db13796" upstream="rk33/mid/7.0/develop">
+    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
+    <copyfile dest="build-rk3399-mid.sh" src="build-rk3399-mid.sh"/>
+    <copyfile dest="build-rk3399-laptop.sh" src="build-rk3399-laptop.sh"/>
+    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="origin" revision="27f73267d58ea5abd2e65b9547c4c657bea20cf8" upstream="rk33/mid/7.0/develop">
+    <copyfile dest=".classpath" src=".classpath"/>
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+  </project>
+
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" />
-  <!--<project path="external/android-mock" name="platform/external/android-mock" groups="pdk" />-->
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" />
@@ -129,7 +134,6 @@
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
-  <!--<project path="external/embunit" name="platform/external/embunit" groups="pdk" />-->
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
@@ -180,7 +184,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed,pdk-fs" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" />
-  <!--<project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk" />-->
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk" />
@@ -234,12 +237,10 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" />
-  <!--<project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
-  <!--<project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" />-->
   <project path="external/markdown" name="platform/external/markdown" groups="pdk" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -263,13 +264,12 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" />
-  <!--<project path="external/openfst" name="platform/external/openfst" groups="pdk" />-->
-  <!--<project path="external/openssh" name="platform/external/openssh" groups="pdk" />-->
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
@@ -370,7 +370,8 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
-  <project path="external/wlan_loader" name="android_external_wlan_loader" remote="origin" revision="rk3399_7.1.2_master" />
+  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="9deece5d2b654eb174b40577b88352b38ee24d48" upstream="refs/tags/android-7.1.2_r6"/>
+  <project path="external/wlan_loader" name="android_external_wlan_loader" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" groups="pdk" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" />
@@ -447,7 +448,7 @@
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs"/>
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Callery2" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
@@ -465,7 +466,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
-  <!--<project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />-->
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
@@ -567,7 +567,6 @@
   <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
-  <!--<project path="test/vts" name="platform/test/vts" groups="vts,pdk" />-->
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -581,6 +580,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+  <project name="android/rk/rkst" path="rkst" remote="origin" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="hardkernel" revision="053c375a54f7bd3ab116ccdc6d9c8d711127dd27" upstream="rkdevelop"/>
   <project path="vendor/widevine" name="android_vendor_Widevine" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
