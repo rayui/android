@@ -57,6 +57,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
+  <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
+  <project path="device/hardkernel/odroidn1" name="android_device_hardkernel_odroidn1" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
