@@ -426,7 +426,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
-  <project path="kernel" name="rk/kernel" remote="hardkernel" revision="30625c8db914f0d63a3fbae0ac0729879d9727fa" upstream="develop-4.4"/>
+  <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/odroidn1-4.4.y-android" />
   <project path="libcore" name="android_libcore" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
@@ -581,7 +581,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project name="android/rk/rkst" path="rkst" remote="origin" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="hardkernel" revision="053c375a54f7bd3ab116ccdc6d9c8d711127dd27" upstream="rkdevelop"/>
+  <project name="u-boot" path="u-boot" remote="hardkernel" revision="refs/heads/odroidn1-v2014.10" />
   <project path="vendor/widevine" name="android_vendor_Widevine" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
 
