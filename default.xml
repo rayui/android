@@ -364,6 +364,7 @@
   <project path="external/wlan_loader" name="android_external_wlan_loader" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" groups="pdk" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
+  <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
