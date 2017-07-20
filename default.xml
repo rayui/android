@@ -282,7 +282,6 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" />
-  <project path="external/rk-pcba-test" name="android_external_rk-pcba-test" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
