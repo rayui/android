@@ -70,17 +70,6 @@
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk,generic_fs,pdk" clone-depth="1" />
-  <project name="android/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="origin" revision="2c2670c105ed8189f0322363d0c90cd77db13796" upstream="rk33/mid/7.0/develop">
-    <copyfile dest="buildspec.mk" src="buildspec.mk"/>
-    <copyfile dest="build-rk3399-mid.sh" src="build-rk3399-mid.sh"/>
-    <copyfile dest="build-rk3399-laptop.sh" src="build-rk3399-laptop.sh"/>
-    <copyfile dest="javaenv.sh" src="javaenv.sh"/>
-  </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="origin" revision="27f73267d58ea5abd2e65b9547c4c657bea20cf8" upstream="rk33/mid/7.0/develop">
-    <copyfile dest=".classpath" src=".classpath"/>
-    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
-  </project>
-
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
