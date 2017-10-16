@@ -565,7 +565,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <project path="system/netd" name="android_system_netd" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
