@@ -61,9 +61,7 @@
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="device/hardkernel/odroidn1" name="android_device_hardkernel_odroidn1" remote="origin" revision="refs/heads/rk3399_7.1.2_master" >
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
-    <copyfile dest="compile_env.sh" src="compile_env.sh" />
     <copyfile dest="build.sh" src="build.sh" />
-    <copyfile dest="mkimage.sh" src="mkimage.sh" />
   </project>
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
