@@ -421,6 +421,7 @@
   <project path="hardware/rockchip/librkvpu" name="android_hardware_rockchip_librkvpu" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/rockchip/omx_il" name="android_hardware_rockchip_omx_il" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/rockchip/power" name="android_hardware_rockchip_power" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
+  <project path="hardware/rockchip/hdmicec" name="android_hardware_rockchip_hdmicec" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
