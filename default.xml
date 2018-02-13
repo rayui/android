@@ -582,7 +582,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
-  <project name="android/rk/rkst" path="rkst" remote="origin" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
+  <project name="android_rk_rkst" path="rkst" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project name="u-boot" path="u-boot" remote="hardkernel" revision="refs/heads/odroidn1-v2017.07-android" />
   <project path="vendor/widevine" name="android_vendor_Widevine" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" revision="refs/heads/rk3399_7.1.2_master" />
