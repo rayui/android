@@ -2,14 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="hardkernel"
-           fetch=".." />
+           fetch="https://github.com/hardkernel/" />
 
   <remote  name="origin"
-           fetch=".." />
+           fetch="https://github.com/codewalkerster/" />
 
   <default revision="refs/tags/android-7.1.2_r36"
            remote="aosp"
