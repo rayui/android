@@ -14,6 +14,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote name="beetleos"
+	  fetch="https://github.com/rayui/" />
+
   <project path="build" name="android_build" groups="pdk,tradefed" remote="origin" revision="refs/heads/s905_6.0.1_master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -245,7 +248,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="origin" revision="refs/heads/s905_6.0.1_master" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="beetelos" revision="refs/heads/s905_6.0.1_master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
